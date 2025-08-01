@@ -195,11 +195,11 @@ html {
 /* Lehigh logo (top-right) */
 .banner-logo {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 0.5rem;
+  right: 0.5rem;
   height: 4rem;
   object-fit: contain;
-  background: rgba(0, 0, 0, 0.3); /* semi-transparent black overlay */
+  background: rgba(0, 0, 0, 0.4); /* semi-transparent black overlay */
   padding: .5rem .5rem;
   border-radius: 0.5rem;   
 }
@@ -212,6 +212,8 @@ html {
   transform: translateX(-50%);
   display: flex;
   gap: 2rem;
+  background: rgba(0, 0, 0, 0.4); /* semi-transparent black overlay */
+
 }
 
 .banner-link {
