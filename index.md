@@ -12,7 +12,7 @@ We utilize the exquisite precision and control of atomic systems to sythesize ga
 and participate in cutting edge research.** See [openings]({/openings}) for more details.
 
 {% assign gallery = site.data.gallery_1 %}
-{% include carousel.html images=gallery text="This is the left-hand text next to the image carousel." %}
+{% include carousel.html images=gallery text="This is the left-hand text next to the image carousel." id="swiper-carousel-1" %}
 
 ### key research topics, themes, and ideas :
 ultracold atoms, bose condensation, degenerate fermi gases, optical lattices, quantum simulation,
