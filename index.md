@@ -15,4 +15,4 @@ This page is currently underdevelopment.
 
 ### key research topics, themes, and ideas 
 ultracold atoms, bose condensation, degenerate fermi gases, optical lattices, quantum simulation,
-non-equilibirum physics, quantum thermalization, laser cooling
+non-equilibirum physics, quantum thermalization, floquet engineering, disordered system, laser cooling

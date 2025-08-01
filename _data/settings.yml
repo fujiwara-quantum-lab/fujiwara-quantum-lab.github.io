@@ -12,13 +12,14 @@ google-ID: 'UA-112060364-1'
 #- {name: 'Contact', url: 'contact.html'}
 
 menu:
-  - {name: Home,     url: /}
-  - {name: Research, url: /research/}
-  - {name: Publications,url: /publications/}
-  - {name: News,      url: /news/}
-  - {name: Teaching, url: /teaching/}
-  - {name: Resources,  url: /resources/}
-  - {name: Openings,  url: /openings/}
+  - {name: home,     url: /}
+  - {name: research, url: /research/}
+  - {name: people, url: /people/}
+  - {name: publications,url: /publications/}
+  - {name: news,      url: /news/}
+  - {name: teaching, url: /teaching/}
+  - {name: resources,  url: /resources/}
+  - {name: openings,  url: /openings/}
     
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
