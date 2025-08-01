@@ -11,41 +11,79 @@ We utilize the exquisite precision and control of atomic systems to sythesize ga
 **We are currently looking for motivated undergraduate, graduate, and postdocs to join us in constructing the laboratory
 and participate in cutting edge research.** See [openings]({/openings}) for more details.
 
-
-<!-- Swiper CSS -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 <style>
-  .swiper-container {
+  .carousel-wrapper {
     width: 50%;
     max-width: 800px;
-    margin: auto;
+    margin: 2rem auto;
+    position: relative;
   }
+
+  .swiper {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
   .swiper-slide img {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 10px;
+    object-fit: contain;
+  }
+
+  /* Tighten arrow placement */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #333;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    transform: scale(0.75);
+  }
+
+  /* Center dots below image */
+  .swiper-pagination {
+    bottom: 10px !important;
+    text-align: center;
+  }
+
+  .swiper-pagination-bullets {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .swiper-pagination-bullet {
+    background: #333;
+    opacity: 0.4;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: 1;
   }
 </style>
 
-<!-- Swiper Carousel -->
-<div class="swiper-container">
-  <div class="swiper-wrapper" id="swiper-wrapper">
-    <!-- Slides will be inserted here -->
+<div class="carousel-wrapper">
+  <div class="swiper">
+    <div class="swiper-wrapper" id="swiper-wrapper">
+      <!-- Slides will be injected below -->
+    </div>
+    <!-- Navigation arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- Dots -->
+    <div class="swiper-pagination"></div>
   </div>
-  <!-- Pagination (dots) -->
-  <div class="swiper-pagination"></div>
-  <!-- Navigation arrows -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
 </div>
 
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <script>
-  // Image filenames located in /assets/img/gallery_1/
+  // Image filenames from /assets/img/gallery_1/
   const imageFilenames = [
     "lehigh.webp",
     "lewis_lab_2.jpg"
@@ -63,7 +101,7 @@ and participate in cutting edge research.** See [openings]({/openings}) for more
   });
 
   // Initialize Swiper
-  new Swiper('.swiper-container', {
+  new Swiper('.swiper', {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 10,
