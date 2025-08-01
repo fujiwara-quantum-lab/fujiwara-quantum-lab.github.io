@@ -1,3 +1,4 @@
+<!--
 <header class="header">
 
  <div class="banner-image">
@@ -12,6 +13,33 @@
     <a href="https://physics.cas.lehigh.edu/">
       <img src="{{ site.github.url }}/assets/img/Lehigh_University_Logo.png" alt="Lehigh Logo" class="lehigh-logo">
     </a>
+  </div>
+
+  {% include menu.html %}
+</header>
+-->
+
+<header class="header">
+  <div class="banner-container">
+    <img src="{{ site.github.url }}/assets/img/lehigh_cropped.jpg" alt="Banner image" class="banner-img">
+
+    <!-- Overlay text box -->
+    <div class="banner-text-block">
+      <a href="{{ site.github.url }}/" class="banner-title">Fujiwara Lab</a>
+      <div class="banner-subtitle">Ultracold Quantum Matter</div>
+    </div>
+
+    <!-- Top-right logo -->
+    <a href="https://physics.cas.lehigh.edu/">
+      <img src="{{ site.github.url }}/assets/img/Lehigh_University_Logo.png" alt="Lehigh Logo" class="banner-logo">
+    </a>
+
+    <!-- Bottom navigation links -->
+    <div class="banner-nav-links">
+      <a href="{{ site.github.url }}/research" class="banner-link">Research</a>
+      <a href="{{ site.github.url }}/people" class="banner-link">People</a>
+      <a href="{{ site.github.url }}/contact" class="banner-link">Contact</a>
+    </div>
   </div>
 
   {% include menu.html %}
