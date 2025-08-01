@@ -10,6 +10,9 @@
 #   sort_field: 'date'
 #   sort_reverse: true
 
+url: "https://fujiwara-quantum-lab.github.io"
+baseurl: ""
+
 # jekyll-paginate configuration
 paginate:            5
 
