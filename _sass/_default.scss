@@ -6,12 +6,6 @@ html {
 }
 
 
-body {
-  font-family: $sans-serif-font-family;
-  font-size: 1.6rem; /* or whatever size you prefer */
-  color: $dark-gray-color; /* Optional: set body text color */
-  line-height: 1.6;         /* Optional: improves readability */
-}
 
 .container {
   margin-left: auto;
@@ -22,6 +16,7 @@ body {
 .content-container {
   margin-bottom: 4rem;
     font-family: $sans-serif-font-family;
+	  font-size: 1rem; /* or whatever size you prefer */
 }
 
 /*48em*/
