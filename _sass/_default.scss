@@ -10,6 +10,7 @@
 
 .content-container {
   margin-bottom: 4rem;
+    font-family: $sans-serif-font-family;
 }
 
 /*48em*/
@@ -133,6 +134,6 @@
 }
 
 .lehigh-logo {
-  height: 2rem; /* Adjust this as needed to match title + subtitle visually */
+  height: 3rem; /* Adjust this as needed to match title + subtitle visually */
   object-fit: contain;
 }

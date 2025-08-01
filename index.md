@@ -9,7 +9,7 @@ We utilize trapped gases of ultracold bosonic and fermionic atoms to investigate
 of quantum many-body systems.
 
 **We are currently looking for motivated undergraduate, graduate, and postdocs to join us in constructing the laboratory
-and participate in cutting edge research.** See [Openings]({/openings}) for more details.
+and participate in cutting edge research.** See [openings]({/openings}) for more details.
 
 This page is currently underdevelopment.
 
