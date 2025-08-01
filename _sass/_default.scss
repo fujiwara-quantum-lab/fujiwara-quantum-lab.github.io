@@ -36,14 +36,12 @@ html {
   padding-top: 0.2rem;
   display: block;
   color : $lehigh-brown-80;
+  float: left;
 }
 
 .menu-content {
     color : $lehigh-brown-80;
- justify-content: center;
-   width: 100%;
-  display: flex;
-
+	float: left;
 }
 
 .menu-content a {
