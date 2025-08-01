@@ -24,7 +24,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Fujiwara Lab'
-description:	       'Ultracold Quantum Matter | Lehigh University'
+description:	       'Ultracold Quantum Matter'
 author:              'Cora Fujiwara'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
