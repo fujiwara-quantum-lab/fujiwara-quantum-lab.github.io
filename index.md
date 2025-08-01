@@ -11,7 +11,41 @@ We utilize the exquisite precision and control of atomic systems to sythesize ga
 **We are currently looking for motivated undergraduate, graduate, and postdocs to join us in constructing the laboratory
 and participate in cutting edge research.** See [openings]({/openings}) for more details.
 
-<iframe src="https://drive.google.com/embeddedfolderview?id=1GFMnqZxdlnAPHhVkiTqwJttstImLCxv9#grid" width="100%" height="600" style="border:0;"></iframe>
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- Swiper Carousel -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="/assets/img/gallery_1/Lewis_Lab_2.jpg" /></div>
+    <div class="swiper-slide"><img src="/assets/img/gallery_1/lehigh.webp" /></div>
+    <!-- Add more slides as needed -->
+  </div>
+  <!-- Arrows -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <!-- Dots -->
+  <div class="swiper-pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.swiper-container', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+
 
 ### key research topics, themes, and ideas :
 ultracold atoms, bose condensation, degenerate fermi gases, optical lattices, quantum simulation,
