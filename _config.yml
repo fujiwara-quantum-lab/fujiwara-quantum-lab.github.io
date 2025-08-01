@@ -12,13 +12,13 @@
 
 
 # jekyll-paginate configuration
-#paginate:            5
+paginate:            5
 
 # Build settings
-#markdown:            kramdown
-#highlighter:         rouge
-#permalink:           /:title
-#plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 url: "https://fujiwara-quantum-lab.github.io"
@@ -29,4 +29,4 @@ author:              'Cora Fujiwara'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
-#  path: rss-feed.xml
+  path: rss-feed.xml
