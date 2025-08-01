@@ -72,6 +72,26 @@
   .swiper-pagination-bullet-active {
     opacity: 1;
   }
+  
+  .swiper-carousel {
+  max-width: 100%;
+  height: auto;
+}
+
+.swiper-carousel .swiper-wrapper {
+  height: auto !important;
+}
+
+.swiper-slide figure {
+  margin: 0;
+  text-align: center;
+}
+
+.swiper-slide img {
+  max-height: 400px;
+  width: auto;
+  margin: auto;
+}
 </style>
 
 <div class="carousel-layout">
@@ -79,7 +99,7 @@
     {{ include.text }}
   </div>
   <div class="carousel-wrapper">
-    <div class="swiper">
+	<div class="swiper" id="swiper-carousel">
       <div class="swiper-wrapper">
         {% assign sorted_images = include.images | sort: "filename" %}
         {% for image in sorted_images %}
@@ -103,18 +123,18 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    new Swiper('.swiper', {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 10,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
-      }
-    });
+	new Swiper('#swiper-carousel', {
+	  loop: true,
+	  slidesPerView: 1,
+	  spaceBetween: 10,
+	  pagination: {
+		el: '#swiper-carousel .swiper-pagination',
+		clickable: true
+	  },
+	  navigation: {
+		nextEl: '#swiper-carousel .swiper-button-next',
+		prevEl: '#swiper-carousel .swiper-button-prev'
+	  }
+	});
   });
 </script>
