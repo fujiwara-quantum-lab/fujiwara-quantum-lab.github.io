@@ -11,8 +11,6 @@ of quantum many-body systems.
 **We are currently looking for motivated undergraduate, graduate, and postdocs to join us in constructing the laboratory
 and participate in cutting edge research.** See [openings]({/openings}) for more details.
 
-This page is currently underdevelopment.
-
 ### key research topics, themes, and ideas 
 ultracold atoms, bose condensation, degenerate fermi gases, optical lattices, quantum simulation,
 non-equilibirum physics, quantum thermalization, floquet engineering, disordered system, laser cooling
