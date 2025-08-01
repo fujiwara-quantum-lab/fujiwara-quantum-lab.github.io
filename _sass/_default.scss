@@ -169,7 +169,7 @@ html {
   position: absolute;
   top: 1rem;
   left: 1rem;
-  background: rgba(0, 0, 0, 0.4); /* semi-transparent black overlay */
+  background: rgba(0, 0, 0, 0); /* semi-transparent black overlay */
   padding: 1rem 1rem;
   border-radius: 0.5rem;
   color: white;
@@ -177,7 +177,7 @@ html {
 }
 
 .banner-title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   color: gold;
   text-decoration: none;
@@ -199,7 +199,7 @@ html {
   right: 0.5rem;
   height: 4rem;
   object-fit: contain;
-  background: rgba(0, 0, 0, 0.4); /* semi-transparent black overlay */
+  background: rgba(0, 0, 0, 0); /* semi-transparent black overlay */
   padding: .5rem .5rem;
   border-radius: 0.5rem;   
 }
@@ -212,13 +212,13 @@ html {
   transform: translateX(-50%);
   display: flex;
   gap: 2rem;
-  background: rgba(0, 0, 0, 0.4); /* semi-transparent black overlay */
+  background: rgba(0, 0, 0, 0); /* semi-transparent black overlay */
 
 }
 
 .banner-link {
   font-size: 1.2rem;
-  color: gold;
+  color: $lehigh-brown-60;
   font-weight: normal;
   text-shadow: 0 0 6px rgba(0,0,0,0.5);
   font-family: $sans-serif-font-family;
