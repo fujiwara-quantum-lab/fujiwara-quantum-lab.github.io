@@ -11,6 +11,8 @@ We utilize the exquisite precision and control of atomic systems to sythesize ga
 **We are currently looking for motivated undergraduate, graduate, and postdocs to join us in constructing the laboratory
 and participate in cutting edge research.** See [openings]({/openings}) for more details.
 
+<iframe src="https://drive.google.com/embeddedfolderview?id=1GFMnqZxdlnAPHhVkiTqwJttstImLCxv9#grid" width="100%" height="600" style="border:0;"></iframe>
+
 ### key research topics, themes, and ideas :
 ultracold atoms, bose condensation, degenerate fermi gases, optical lattices, quantum simulation,
 non-equilibirum physics, quantum thermalization, floquet engineering, disordered system, laser cooling
