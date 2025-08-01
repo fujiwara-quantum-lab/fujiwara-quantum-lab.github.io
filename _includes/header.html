@@ -1,7 +1,15 @@
 <header class="header">
-  <h3 class="header-title">
-    <a href="{{ site.github.url }}/">{{ site.title }}</a>
-    <small class="header-subtitle">{{ site.description }}</small>
-    {% include menu.html %}
-  </h3>
+  <div class="header-branding">
+    <a href="{{ site.github.url }}/">
+      <img src="{{ site.github.url }}/assets/img/Lehigh_University_Logo.png" alt="Lehigh Logo" class="logo">
+    </a>
+    <div class="header-text">
+      <h3 class="header-title">
+        <a href="{{ site.github.url }}/">{{ site.title }}</a>
+      </h3>
+      <small class="header-subtitle">{{ site.description }}</small>
+    </div>
+  </div>
+
+  {% include menu.html %}
 </header>
