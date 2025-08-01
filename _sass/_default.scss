@@ -168,10 +168,10 @@ html {
 /* Text block (title + subtitle) */
 .banner-text-block {
   position: absolute;
-  top: 1.5rem;
-  left: 2rem;
+  top: 1rem;
+  left: 1rem;
   background: rgba(0, 0, 0, 0.4); /* semi-transparent black overlay */
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   border-radius: 0.5rem;
   color: white;
   max-width: 60%;
@@ -180,7 +180,7 @@ html {
 .banner-title {
   font-size: 3rem;
   font-weight: bold;
-  color: #ffe41e;
+  color: gold;
   text-decoration: none;
   display: block;
   font-family: $sans-serif-font-family;
