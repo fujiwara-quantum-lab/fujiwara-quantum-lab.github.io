@@ -15,37 +15,68 @@ and participate in cutting edge research.** See [openings]({/openings}) for more
 <!-- Swiper CSS -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
+<style>
+  .swiper-container {
+    width: 50%;
+    max-width: 800px;
+    margin: auto;
+  }
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+</style>
+
 <!-- Swiper Carousel -->
 <div class="swiper-container">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="/assets/img/gallery_1/Lewis_Lab_2.jpg" /></div>
-    <div class="swiper-slide"><img src="/assets/img/gallery_1/lehigh.webp" /></div>
-    <!-- Add more slides as needed -->
+  <div class="swiper-wrapper" id="swiper-wrapper">
+    <!-- Slides will be inserted here -->
   </div>
-  <!-- Arrows -->
+  <!-- Pagination (dots) -->
+  <div class="swiper-pagination"></div>
+  <!-- Navigation arrows -->
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
-  <!-- Dots -->
-  <div class="swiper-pagination"></div>
 </div>
 
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <script>
-  const swiper = new Swiper('.swiper-container', {
+  // Image filenames located in /assets/img/gallery_1/
+  const imageFilenames = [
+    "lehigh.webp",
+    "lewis_lab_2.jpg"
+  ];
+
+  // Sort alphabetically
+  imageFilenames.sort();
+
+  const wrapper = document.getElementById('swiper-wrapper');
+  imageFilenames.forEach(filename => {
+    const slide = document.createElement('div');
+    slide.className = 'swiper-slide';
+    slide.innerHTML = `<img src="/assets/img/gallery_1/${filename}" alt="${filename}" />`;
+    wrapper.appendChild(slide);
+  });
+
+  // Initialize Swiper
+  new Swiper('.swiper-container', {
     loop: true,
+    slidesPerView: 1,
+    spaceBetween: 10,
     pagination: {
       el: '.swiper-pagination',
-      clickable: true,
+      clickable: true
     },
     navigation: {
       nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+      prevEl: '.swiper-button-prev'
+    }
   });
 </script>
-
 
 ### key research topics, themes, and ideas :
 ultracold atoms, bose condensation, degenerate fermi gases, optical lattices, quantum simulation,
