@@ -6,11 +6,27 @@ disqus:
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: 'UA-112060364-1'
 
-menu:
-- {name: 'About',   url: 'about.html'}
-- {name: 'Writing', url: 'writing.html'}
-- {name: 'Contact', url: 'contact.html'}
+#menu:
+#- {name: 'About',   url: 'about.html'}
+#- {name: 'Writing', url: 'writing.html'}
+#- {name: 'Contact', url: 'contact.html'}
 
+menu:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: News
+    url: /news/
+  - title: Teaching
+    url: /teaching/
+  - title: Resources
+    url: /resources/
+  - title: Openings
+    url: /openings/
+    
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'github',     link: 'https://www.github.com/lenpaul'}
