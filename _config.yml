@@ -10,19 +10,19 @@
 #   sort_field: 'date'
 #   sort_reverse: true
 
-url: "https://fujiwara-quantum-lab.github.io"
-baseurl: ""
 
 # jekyll-paginate configuration
-paginate:            5
+#paginate:            5
 
 # Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+#markdown:            kramdown
+#highlighter:         rouge
+#permalink:           /:title
+#plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+url: "https://fujiwara-quantum-lab.github.io"
+baseurl: ""
 title:		           'Fujiwara Lab'
 description:	       'Ultracold Quantum Matter | Lehigh University'
 author:              'Cora Fujiwara'
