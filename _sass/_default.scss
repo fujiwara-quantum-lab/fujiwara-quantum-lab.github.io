@@ -35,15 +35,18 @@ html {
 .menu {
   padding-top: 0.2rem;
   display: block;
-    float: center;
+    float: left;
 
   color : $lehigh-brown-80;
 
 }
 
 .menu-content {
-  float: center;
+  float: left;
     color : $lehigh-brown-80;
+ justify-content: center;
+   width: 100%;
+  display: flex;
 
 }
 
