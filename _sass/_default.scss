@@ -28,10 +28,14 @@
 .menu {
   padding-top: 0.5rem;
   display: block;
+  color : $lehigh-brown-80;
+
 }
 
 .menu-content {
   float: left;
+    color : $lehigh-brown-80;
+
 }
 
 .menu-content a {
@@ -42,6 +46,8 @@
 
 .social-icons {
   float: right;
+  color : $lehigh-brown-80;
+
 }
 
 .social-icons a {
@@ -114,7 +120,7 @@
 }
 
 .lab-title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   text-decoration: none;
   color: $dark-gray-color;
