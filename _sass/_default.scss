@@ -5,6 +5,14 @@ html {
   font-size: 12px; /* Or a percentage like 62.5% for easier rem calculations (1rem = 10px) */
 }
 
+
+body {
+  font-family: $sans-serif-font-family;
+  font-size: 1.6rem; /* or whatever size you prefer */
+  color: $dark-gray-color; /* Optional: set body text color */
+  line-height: 1.6;         /* Optional: improves readability */
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -14,7 +22,6 @@ html {
 .content-container {
   margin-bottom: 4rem;
     font-family: $sans-serif-font-family;
-	font-size: 0.75rem;
 }
 
 /*48em*/
