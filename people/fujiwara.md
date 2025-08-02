@@ -13,7 +13,7 @@ cv: /assets/docs/fujiwara_cv.pdf
 linkedin: https://www.linkedin.com/in/cora-fujiwara-8038921b3
 googlescholar: https://scholar.google.com/citations?user=rlZHLjwAAAAJ
 github: https://github.com/cjfujiwara
-scoobydoo:
+images:
   - { filename: fujiwara_1.jpg, caption: }
   - { filename: fujiwara_2.jpg, caption: Skiing in the Dolomites (2021)}
   - { filename: fujiwara_3.jpg, caption: Backpacking in Uintas, Utah (2024)}
