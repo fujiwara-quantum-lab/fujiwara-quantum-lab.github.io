@@ -3,7 +3,8 @@ layout: default
 title: Resources
 permalink: /resources/
 ---
-{{TOC}}
+
+{:toc}
 
 # Resources
 
