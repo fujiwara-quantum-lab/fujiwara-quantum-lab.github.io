@@ -8,11 +8,11 @@
   <p style="font-size: 1.25rem; font-weight: bold;">{{ person.role }}</p>
 
 <!-- Education Section (Multiline Text) -->
-  {% if person.education %}
-    <div style="margin-bottom: 1rem;">
-      {{ person.education | markdownify }}
-    </div>
-  {% endif %}
+{% if person.education %}
+  <div style="margin-bottom: 1rem; white-space: pre-line;">
+    {{ person.education }}
+  </div>
+{% endif %}
 
     <ul style="list-style: none; padding: 0; margin: 1rem 0;">
       {% if person.email %}
