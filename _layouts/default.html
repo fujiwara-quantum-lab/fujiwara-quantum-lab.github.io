@@ -1,5 +1,9 @@
 <!doctype html>
 <html>
+
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
   {% include head.html %}
   <body>
     <div class="container">
@@ -9,5 +13,25 @@
       </div>
       {% include footer.html %}
     </div>
+	
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.person-swiper', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      }
+    });
+  });
+</script>
+</body>
   </body>
 </html>
