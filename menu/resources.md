@@ -7,10 +7,9 @@ permalink: /resources/
 <div class="toc-container" id="markdown-toc">
 			* Table of Contents
 			{:toc}
-  </div>
+</div>
     
-      <!-- Main content -->
-      <div class="content-with-toc-container">
+<div class="content-with-toc-container">
   
 
 # Resources
@@ -40,4 +39,4 @@ These expectations are in addition to any laws or policies external to the group
 ## Postdocs
 
 
-      </div>	
+</div>	
