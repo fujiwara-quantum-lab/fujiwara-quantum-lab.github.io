@@ -9,14 +9,14 @@
 
     <!-- Education Section -->
 {% if person.education %}
-<div style="margin: 0 0 1rem 0; line-height: 1.4;">
+<div style="margin: 0 0 0.1rem 0; line-height: 1.4;">
   {% for degree in person.education %}
     <div>{{ degree }}</div>
   {% endfor %}
 </div>
 {% endif %}
     <!-- Contact Info List -->
-    <ul style="list-style: none; padding: 0; margin: 0 0 1rem 0;">
+    <ul style="list-style: none; padding: 0; margin: 0 0 0.1rem 0;">
       {% if person.email %}
       <li style="display: flex; align-items: center; margin-bottom: 0.1rem;">
         <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
