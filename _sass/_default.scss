@@ -230,12 +230,11 @@ html {
 .banner-link:hover {
   text-decoration: underline;
 }
-
+/* TOC - Fix it on the right */
 #markdown-toc {
-  position: sticky;
-  top: 100px;
-  width: 220px;
-  float: right;
+  position: sticky; /* Keep TOC fixed as you scroll */
+  top: 100px; /* Keeps it from sticking to the very top */
+  width: 220px; /* Width of the TOC */
   margin-left: 2rem;
   margin-bottom: 2rem;
   background: #f9f9f9;
@@ -243,9 +242,45 @@ html {
   padding: 1rem;
   border-radius: 8px;
   font-size: 0.9rem;
+  z-index: 10; /* Ensure TOC stays above content */
 }
 
 /* Clear floats after TOC */
 #markdown-toc + * {
-  clear: right;
+  clear: both;
+}
+
+/* Main content layout */
+.content-container {
+  display: flex; /* Use flexbox to place TOC and content side by side */
+  flex-wrap: wrap; /* Ensure content adjusts when screen size shrinks */
+}
+
+/* Main content - will squish only when TOC is present */
+.main-content {
+  flex: 1; /* Allows it to take up remaining space */
+  padding-right: 0; /* Default state without TOC */
+}
+
+/* When TOC is present, add padding to shift content */
+.page-with-toc .main-content {
+  padding-right: 240px; /* Account for TOC width */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  #markdown-toc {
+    width: 100%; /* TOC takes full width on mobile */
+    position: relative; /* TOC flows with content on mobile */
+    margin-left: 0;
+    top: 0;
+  }
+
+  .content-container {
+    flex-direction: column; /* Stack TOC and content vertically on mobile */
+  }
+
+  .main-content {
+    padding-right: 0; /* Remove padding on mobile */
+  }
 }

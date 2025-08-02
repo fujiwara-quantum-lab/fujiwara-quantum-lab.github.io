@@ -1,45 +1,51 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-</head>
   {% include head.html %}
-  <body>
-    <div class="container">
-      {% include header.html %}
-	    {% if page.toc %}
+</head>
+
+<body class="{% if page.toc %}page-with-toc{% endif %}">
+  <div class="container">
+    {% include header.html %}
+
+    <!-- Content container, TOC will be placed to the right -->
+    <div class="content-container">
+      {% if page.toc %}
         <div id="markdown-toc">
           * Table of Contents
           {:toc}
         </div>
       {% endif %}
-	  
-	  
-      <div class="content-container">
+
+      <!-- Main content remains unchanged -->
+      <div class="main-content">
         {{ content }}
       </div>
-      {% include footer.html %}
     </div>
-	
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    new Swiper('.person-swiper', {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 10,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
-      }
+
+    {% include footer.html %}
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new Swiper('.person-swiper', {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        }
+      });
     });
-  });
-</script>
+  </script>
 </body>
-  </body>
+
 </html>
