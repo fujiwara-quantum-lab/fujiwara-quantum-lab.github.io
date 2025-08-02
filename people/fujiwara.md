@@ -15,6 +15,7 @@ googlescholar: https://scholar.google.com/citations?user=rlZHLjwAAAAJ
 github: https://github.com/cjfujiwara
 images:
   - filename: fujiwara_1.jpg
+  caption:
   - filename: fujiwara_2.jpg
   caption: Skiing in the dolomites (2021)
   - filename:fujiwara_3.jpg
