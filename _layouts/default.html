@@ -8,6 +8,14 @@
   <body>
     <div class="container">
       {% include header.html %}
+	    {% if page.toc %}
+        <div id="markdown-toc">
+          * Table of Contents
+          {:toc}
+        </div>
+      {% endif %}
+	  
+	  
       <div class="content-container">
         {{ content }}
       </div>

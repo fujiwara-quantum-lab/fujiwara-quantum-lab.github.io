@@ -2,13 +2,8 @@
 layout: default
 title: Resources
 permalink: /resources/
+toc: true
 ---
-
-
-
-* Table of Contents
-{:toc}
-
 
 # Resources
 
@@ -35,4 +30,5 @@ These expectations are in addition to any laws or policies external to the group
 ## Graduates
 
 ## Postdocs
+
 
