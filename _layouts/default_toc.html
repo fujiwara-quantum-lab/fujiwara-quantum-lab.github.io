@@ -10,10 +10,13 @@
 
     <!-- Content container with TOC included -->
     <div class="content-container">	
-	  <div class="toc-container" id="markdown-toc">
-		* Table of Contents
-		{:toc}
-	 </div>       
+		{% if page.toc %}
+		  <div class="toc-container" id="markdown-toc">
+			* Table of Contents
+			{:toc}
+		  </div>
+		{% endif %}
+    
       <!-- Main content -->
       <div class="content-with-toc-container">
         {{content}}
