@@ -4,46 +4,47 @@
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 3rem; align-items: flex-start;">
   <!-- Text Section (2/3 width) -->
   <div style="flex: 2; min-width: 300px;">
-<h2 style="margin-top: 0; font-size: 2rem;">{{ person.myname }}</h2>
-  <p style="font-size: 1.25rem; font-weight: bold;">{{ person.role }}</p>
+    <h2 style="margin-top: 0; font-size: 2.5rem; margin-bottom: 0.2rem;">{{ person.myname }}</h2>
+    <p style="font-size: 1.5rem; font-weight: bold; margin: 0 0 0.5rem 0;">{{ person.role }}</p>
 
-<!-- Education Section (Multiline Text) -->
-{% if person.education %}
-  <div style="margin-bottom: 1rem; white-space: pre-line;">
-    {{ person.education }}
-  </div>
-{% endif %}
+    <!-- Education Section -->
+    {% if person.education %}
+    <p style="margin: 0 0 1rem 0; white-space: pre-line;">
+      {{ person.education }}
+    </p>
+    {% endif %}
 
-    <ul style="list-style: none; padding: 0; margin: 1rem 0;">
+    <!-- Contact Info List -->
+    <ul style="list-style: none; padding: 0; margin: 0 0 1rem 0;">
       {% if person.email %}
-      <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+      <li style="display: flex; align-items: center; margin-bottom: 0.3rem;">
         <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
           <i class="fas fa-envelope"></i>
         </span>
         <span>{{ person.email }}</span>
       </li>
       {% endif %}
-	  
-	  {% if person.phone %}
-    <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
-      <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
-        <i class="fas fa-phone"></i>
-      </span>
-      <span>{{ person.phone }}</span>
-    </li>
-    {% endif %}
-	  
-	  {% if person.office %}
-    <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
-      <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
-        <i class="fas fa-map-marker-alt"></i>
-      </span>
-      <span>{{ person.office }}</span>
-    </li>
-    {% endif %}
+
+      {% if person.phone %}
+      <li style="display: flex; align-items: center; margin-bottom: 0.3rem;">
+        <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+          <i class="fas fa-phone"></i>
+        </span>
+        <span>{{ person.phone }}</span>
+      </li>
+      {% endif %}
+
+      {% if person.office %}
+      <li style="display: flex; align-items: center; margin-bottom: 0.3rem;">
+        <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+          <i class="fas fa-map-marker-alt"></i>
+        </span>
+        <span>{{ person.office }}</span>
+      </li>
+      {% endif %}
 
       {% if person.cv %}
-      <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+      <li style="display: flex; align-items: center; margin-bottom: 0.3rem;">
         <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
           <i class="fas fa-file-alt"></i>
         </span>
@@ -52,7 +53,7 @@
       {% endif %}
 
       {% if person.linkedin %}
-      <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+      <li style="display: flex; align-items: center; margin-bottom: 0.3rem;">
         <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
           <i class="fab fa-linkedin"></i>
         </span>
@@ -61,7 +62,7 @@
       {% endif %}
 
       {% if person.github %}
-      <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+      <li style="display: flex; align-items: center; margin-bottom: 0.3rem;">
         <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
           <i class="fab fa-github"></i>
         </span>
@@ -69,14 +70,14 @@
       </li>
       {% endif %}
 
-{% if person.googlescholar %}
-<li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
-  <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
-    <i class="fab fa-google"></i>
-  </span>
-  <a href="{{ person.googlescholar }}" target="_blank">Google Scholar</a>
-</li>
-{% endif %}
+      {% if person.googlescholar %}
+      <li style="display: flex; align-items: center; margin-bottom: 0.3rem;">
+        <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+          <i class="fab fa-google"></i>
+        </span>
+        <a href="{{ person.googlescholar }}" target="_blank">Google Scholar</a>
+      </li>
+      {% endif %}
     </ul>
 
     <p>{{ person.about }}</p>
@@ -85,7 +86,7 @@
   <!-- Image Section (1/3 width) -->
   <div style="flex: 1; min-width: 250px;">
     {% for img in person.images %}
-      <img src="/assets/img/people/{{ img }}" alt="{{ person.name }}" style="width: 100%; border-radius: 10px; margin-bottom: 0.5rem; max-height: 300px; object-fit: contain;">
+      <img src="/assets/img/people/{{ img }}" alt="{{ person.myname }}" style="width: 100%; border-radius: 10px; margin-bottom: 0.5rem; max-height: 300px; object-fit: contain;">
     {% endfor %}
   </div>
 </div>
