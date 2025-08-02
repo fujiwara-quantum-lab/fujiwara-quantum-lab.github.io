@@ -230,57 +230,54 @@ html {
 .banner-link:hover {
   text-decoration: underline;
 }
-/* TOC - Fix it on the right */
+
+/* TOC - Fix it to the top right */
 #markdown-toc {
-  position: sticky; /* Keep TOC fixed as you scroll */
-  top: 100px; /* Keeps it from sticking to the very top */
-  width: 220px; /* Width of the TOC */
-  margin-left: 2rem;
-  margin-bottom: 2rem;
+  position: fixed; /* Fixed position to keep it at the top right */
+  top: 100px; /* Offset from the top to prevent sticking too close to the top */
+  right: 0; /* Stick it to the right edge */
+  width: 220px; /* Set the width for TOC */
   background: #f9f9f9;
   border: 1px solid #ddd;
   padding: 1rem;
   border-radius: 8px;
   font-size: 0.9rem;
-  z-index: 10; /* Ensure TOC stays above content */
+  z-index: 10; /* Ensure TOC stays above the content */
+  margin-bottom: 2rem; /* Margin at the bottom to keep space */
+  overflow-y: auto; /* Allows scrolling if the TOC overflows */
 }
 
-/* Clear floats after TOC */
-#markdown-toc + * {
-  clear: both;
+/* Content wrapper should not be affected by TOC */
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Main content layout */
-.content-container {
-  display: flex; /* Use flexbox to place TOC and content side by side */
-  flex-wrap: wrap; /* Ensure content adjusts when screen size shrinks */
-}
-
-/* Main content - will squish only when TOC is present */
 .main-content {
-  flex: 1; /* Allows it to take up remaining space */
+  flex: 1; /* Take remaining space */
   padding-right: 0; /* Default state without TOC */
 }
 
-/* When TOC is present, add padding to shift content */
+/* When TOC is present, add padding to main content */
 .page-with-toc .main-content {
-  padding-right: 240px; /* Account for TOC width */
+  padding-right: 240px; /* Space for the fixed TOC */
 }
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   #markdown-toc {
-    width: 100%; /* TOC takes full width on mobile */
+    width: 100%; /* Full width on mobile */
     position: relative; /* TOC flows with content on mobile */
-    margin-left: 0;
     top: 0;
+    margin-left: 0;
   }
 
   .content-container {
-    flex-direction: column; /* Stack TOC and content vertically on mobile */
+    flex-direction: column; /* Stack TOC and content vertically */
   }
 
   .main-content {
-    padding-right: 0; /* Remove padding on mobile */
+    padding-right: 0; /* No padding on mobile */
   }
 }
