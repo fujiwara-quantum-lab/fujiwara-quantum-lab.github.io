@@ -1,0 +1,22 @@
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 3rem; align-items: flex-start;">
+  <div style="flex: 1; min-width: 250px;">
+    <h2>{{ person.name }}</h2>
+    <p><strong>{{ person.role }}</strong></p>
+    {% if person.email %}
+      <p><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+    {% endif %}
+    {% if person.cv %}
+      <p><a href="{{ person.cv }}" target="_blank">CV</a></p>
+    {% endif %}
+    {% if person.linkedin %}
+      <p><a href="{{ person.linkedin }}" target="_blank">LinkedIn</a></p>
+    {% endif %}
+    <p>{{ person.about }}</p>
+  </div>
+
+  <div style="flex: 1; min-width: 250px;">
+    {% for img in person.images %}
+      <img src="/assets/img/people/{{ img }}" alt="{{ person.name }}" style="width: 100%; border-radius: 10px; margin-bottom: 0.5rem;">
+    {% endfor %}
+  </div>
+</div>
