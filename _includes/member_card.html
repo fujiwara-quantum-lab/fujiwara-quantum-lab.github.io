@@ -1,68 +1,70 @@
+{% assign person = page %}
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 3rem; align-items: flex-start;">
-  <!-- Text Section (2/3 width) -->
   <div style="flex: 2; min-width: 300px;">
-    <h2 style="margin-top: 0; font-size: 2.5rem; margin-bottom: 0.2rem;">{{ page.myname }}</h2>
-    <p style="font-size: 1.5rem; font-weight: bold; margin: 0 0 0.5rem 0;">{{ page.role }}</p>
+    <h2 style="margin-top: 0; font-size: 2.5rem; margin-bottom: 0.2rem;">{{ person.myname }}</h2>
+    <p style="font-size: 1.5rem; font-weight: bold; margin: 0 0 0.5rem 0;">{{ person.role }}</p>
 
-    {% if page.education %}
+    {% if person.education %}
     <div style="margin: 0 0 1rem 0; line-height: 1.4;">
-      {% for degree in page.education %}
+      {% for degree in person.education %}
         <div>{{ degree }}</div>
       {% endfor %}
     </div>
     {% endif %}
 
+    <!-- Contact Info Grid -->
     <div style="display: grid; grid-template-columns: 1.5rem auto; row-gap: 0rem; column-gap: 0.5rem; align-items: center; margin: 0 0 0rem 0;">
-      {% if page.email %}
+      {% if person.email %}
       <div style="text-align: center;"><i class="fas fa-envelope" style="color: #1D4ED8;"></i></div>
-      <div style="font-size: 1rem;">{{ page.email }}</div>
+      <div style="font-size: 1rem;">{{ person.email }}</div>
       {% endif %}
 
-      {% if page.phone %}
+      {% if person.phone %}
       <div style="text-align: center;"><i class="fas fa-phone" style="color: #065F46;"></i></div>
-      <div style="font-size: 1rem;">{{ page.phone }}</div>
+      <div style="font-size: 1rem;">{{ person.phone }}</div>
       {% endif %}
 
-      {% if page.office %}
+      {% if person.office %}
       <div style="text-align: center;"><i class="fas fa-door-closed" style="color: #6E4C1E;"></i></div>
-      <div style="font-size: 1rem;">{{ page.office }}</div>
+      <div style="font-size: 1rem;">{{ person.office }}</div>
       {% endif %}
 
-      {% if page.cv %}
+      {% if person.cv %}
       <div style="text-align: center;"><i class="fas fa-file-alt" style="color: #6B7280;"></i></div>
-      <div><a href="{{ page.cv }}" target="_blank" style="font-size: 1rem;">CV</a></div>
+      <div><a href="{{ person.cv }}" target="_blank" style="font-size: 1rem;">CV</a></div>
       {% endif %}
 
-      {% if page.linkedin %}
+      {% if person.linkedin %}
       <div style="text-align: center;"><i class="fab fa-linkedin" style="color: #0A66C2;"></i></div>
-      <div><a href="{{ page.linkedin }}" target="_blank" style="font-size: 1rem;">LinkedIn</a></div>
+      <div><a href="{{ person.linkedin }}" target="_blank" style="font-size: 1rem;">LinkedIn</a></div>
       {% endif %}
 
-      {% if page.github %}
+      {% if person.github %}
       <div style="text-align: center;"><i class="fab fa-github" style="color: #181717;"></i></div>
-      <div><a href="{{ page.github }}" target="_blank" style="font-size: 1rem;">GitHub</a></div>
+      <div><a href="{{ person.github }}" target="_blank" style="font-size: 1rem;">GitHub</a></div>
       {% endif %}
 
-      {% if page.googlescholar %}
+      {% if person.googlescholar %}
       <div style="text-align: center;"><i class="fab fa-google" style="color: #4285F4;"></i></div>
-      <div><a href="{{ page.googlescholar }}" target="_blank" style="font-size: 1rem;">Google Scholar</a></div>
+      <div><a href="{{ person.googlescholar }}" target="_blank" style="font-size: 1rem;">Google Scholar</a></div>
       {% endif %}
     </div>
 
-    {% if page.about %}
+    {% if person.about %}
     <div>
-      {{ page.about | markdownify }}
+      {{ person.about | markdownify }}
     </div>
     {% endif %}
   </div>
 
   <!-- Image Section (1/3 width) -->
   <div style="flex: 1; min-width: 250px;">
-	{% for img in page.images %}
-	  <img src="/assets/img/people/{{ img }}" alt="{{ page.myname }}" style="width: 100%; border-radius: 10px; margin-bottom: 0.5rem; max-height: 300px; object-fit: contain;">
-	{% endfor %}
+    {% for img in person.images %}
+      <img src="/assets/img/people/{{ img }}" alt="{{ person.myname }}" style="width: 100%; border-radius: 10px; margin-bottom: 0.5rem; max-height: 300px; object-fit: contain;">
+    {% endfor %}
   </div>
 </div>
