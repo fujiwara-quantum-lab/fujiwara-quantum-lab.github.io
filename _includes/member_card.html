@@ -68,7 +68,10 @@
       {% endif %}
     </div>
 
-    <p>{{ person.about }}</p>
+  
+	<div>
+  {% include_relative {{ person.id }}_about.md %}
+</div>
   </div>
 
   <!-- Image Section (1/3 width) -->
