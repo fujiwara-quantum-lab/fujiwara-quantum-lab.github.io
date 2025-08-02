@@ -7,26 +7,37 @@
   <div style="flex: 2; min-width: 300px;">
     <h2 style="margin-top: 0;">{{ person.myname }}</h2>
     <p><strong>{{ person.role }}</strong></p>
-
-    <ul style="list-style: none; padding: 0; margin: 1rem 0;">
-      {% if person.email %}
-      <li style="margin-bottom: 0.5rem;"><i class="fas fa-envelope"></i> {{ person.email }}</li>
-      {% endif %}
-	{% if person.cv %}
-	  <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
-		<i class="fas fa-file-alt"></i> <a href="{{ person.cv }}" target="_blank">CV</a>
-	  </li>
+<ul style="list-style: none; padding: 0; margin: 1rem 0;">
+  {% if person.email %}
+  <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+    <i class="fas fa-envelope"></i> <span>{{ person.email }}</span>
+  </li>
   {% endif %}
-      {% if person.linkedin %}
-      <li style="margin-bottom: 0.5rem;"><i class="fab fa-linkedin"></i> <a href="{{ person.linkedin }}" target="_blank">LinkedIn</a></li>
-      {% endif %}
-      {% if person.github %}
-      <li style="margin-bottom: 0.5rem;"><i class="fab fa-github"></i> <a href="{{ person.github }}" target="_blank">GitHub</a></li>
-      {% endif %}
-      {% if person.googlescholar %}
-      <li style="margin-bottom: 0.5rem;"><i class="ai ai-google-scholar ai-fw"></i> <a href="{{ person.googlescholar }}" target="_blank">Google Scholar</a></li>
-      {% endif %}
-    </ul>
+
+  {% if person.cv %}
+  <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+    <i class="fas fa-file-alt"></i> <a href="{{ person.cv }}" target="_blank">CV</a>
+  </li>
+  {% endif %}
+
+  {% if person.linkedin %}
+  <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+    <i class="fab fa-linkedin"></i> <a href="{{ person.linkedin }}" target="_blank">LinkedIn</a>
+  </li>
+  {% endif %}
+
+  {% if person.github %}
+  <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+    <i class="fab fa-github"></i> <a href="{{ person.github }}" target="_blank">GitHub</a>
+  </li>
+  {% endif %}
+
+  {% if person.googlescholar %}
+  <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+    <i class="ai ai-google-scholar ai-fw"></i> <a href="{{ person.googlescholar }}" target="_blank">Google Scholar</a>
+  </li>
+  {% endif %}
+</ul>
 
     <p>{{ person.about }}</p>
   </div>
