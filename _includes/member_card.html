@@ -44,14 +44,14 @@
       </li>
       {% endif %}
 
-      {% if person.googlescholar %}
-      <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
-        <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
-          <i class="ai ai-google-scholar ai-fw"></i>
-        </span>
-        <a href="{{ person.googlescholar }}" target="_blank">Google Scholar</a>
-      </li>
-      {% endif %}
+{% if person.googlescholar %}
+<li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+  <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+    <i class="fab fa-google"></i>
+  </span>
+  <a href="{{ person.googlescholar }}" target="_blank">Google Scholar</a>
+</li>
+{% endif %}
     </ul>
 
     <p>{{ person.about }}</p>
