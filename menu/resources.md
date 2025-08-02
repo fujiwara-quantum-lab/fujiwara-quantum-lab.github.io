@@ -1,9 +1,9 @@
 ---
-layout: default_toc
+layout: default
 title: Resources
 permalink: /resources/
 ---
-
+{:toc}
 
 # Resources
 
