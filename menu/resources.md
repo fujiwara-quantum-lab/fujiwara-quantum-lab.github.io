@@ -2,8 +2,16 @@
 layout: default_toc
 title: Resources
 permalink: /resources/
-toc: true
 ---
+
+<div class="toc-container" id="markdown-toc">
+			* Table of Contents
+			{:toc}
+  </div>
+    
+      <!-- Main content -->
+      <div class="content-with-toc-container">
+  
 
 # Resources
 
@@ -32,3 +40,4 @@ These expectations are in addition to any laws or policies external to the group
 ## Postdocs
 
 
+      </div>	
