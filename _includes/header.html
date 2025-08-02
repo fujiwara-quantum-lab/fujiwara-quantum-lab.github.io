@@ -1,24 +1,3 @@
-<!--
-<header class="header">
-
- <div class="banner-image">
-    <img src="{{ site.github.url }}/assets/img/lehigh_cropped.jpg" alt="Banner image">
-  </div>
-
-  <div class="header-top">
-    <div class="header-left">
-      <a href="{{ site.github.url }}/" class="lab-title">{{ site.title }}</a>
-      <div class="lab-subtitle">{{ site.description }}</div>
-    </div>
-    <a href="https://physics.cas.lehigh.edu/">
-      <img src="{{ site.github.url }}/assets/img/Lehigh_University_Logo.png" alt="Lehigh Logo" class="lehigh-logo">
-    </a>
-  </div>
-
-  {% include menu.html %}
-</header>
--->
-
 <header class="header">
   <div class="banner-container">
     <img src="{{ site.github.url }}/assets/img/lehigh_cropped.jpg" alt="Banner image" class="banner-img">
@@ -33,19 +12,6 @@
     <a href="https://physics.cas.lehigh.edu/">
       <img src="{{ site.github.url }}/assets/img/LehighU_official-logo_White.png" alt="Lehigh Logo" class="banner-logo">
     </a>
-
-    <!-- Bottom navigation links -->
-	<!--
-    <div class="banner-nav-links">
-		{% for item in site.data.settings.menu %}
-		  <a href="{{ site.github.url }}/{{ item.url }}" class="banner-link">{{ item.name }}</a>
-		{% endfor %}
-      <a href="{{ site.github.url }}/research" class="banner-link">Research</a>
-      <a href="{{ site.github.url }}/people" class="banner-link">People</a>
-      <a href="{{ site.github.url }}/contact" class="banner-link">Contact</a>
-	  
-    </div>
-	-->
   </div>
 
   {% include menu.html %}
