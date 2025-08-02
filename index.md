@@ -3,7 +3,7 @@ layout: default
 title: Home
 permalink: /
 ---
-# Welcome!
+# Welcome to the Fujiwara Lab!
 {% assign images = site.data.gallery_1 %}
 {% capture carousel_text %}
   {% include carousel_texts/home.md %}
