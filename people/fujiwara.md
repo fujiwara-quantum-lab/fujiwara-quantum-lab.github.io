@@ -17,7 +17,9 @@ about: >
  Cora is a experimental atomic physicist with broad interests that include many-body quantum physics, non-equilibrium quantum dynamics, and quantum control. Before joining the faculty at
  Lehigh University, Cora was a postdoctoral fellow at Centre for Quantum Information and Quantum Control at the University of Toronto and posdoctoral researcher in the group of Joseph Thywissen. At Toronto, Cora 
  worked on experiments engineering novel p-wave interactions and tranpsort measurements in the 3D fermi-hubbard using quantum gas microscopy. 
- Cora received her PhD in 2019 in the group of David Weld at the University of California, Santa Barbara where she helped build a laboratory to investigate the dynamics of ultracold lithium in strongly driven optical lattices.
+ Cora received her PhD in 2019 in the group of David Weld at the University of California, Santa Barbara where she helped build a laboratory to investigate the dynamics of ultracold lithium in strongly driven optical lattices. Before find her home
+in the atomic physics community, Cora explored focusing condensed matter experiments and astrophysics. Andbecoming an atomic physicist
+ Cora explored undergraduate
 images:
   - fujiwara_1.jpg
 ---
