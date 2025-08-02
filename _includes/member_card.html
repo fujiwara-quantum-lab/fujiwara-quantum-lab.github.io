@@ -1,32 +1,35 @@
+<!-- Add once to your <head> in _layouts/default.html if not already there -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 3rem; align-items: flex-start;">
-  <div style="flex: 1; min-width: 250px;">
-    <h2>{{ person.name }}</h2>
+  <!-- Text section: 2/3 width -->
+  <div style="flex: 2; min-width: 300px;">
+    <h2 style="margin-top: 0;">{{ person.name }}</h2>
     <p><strong>{{ person.role }}</strong></p>
 
-    <ul style="list-style: none; padding: 0;">
+    <ul style="list-style: none; padding: 0; margin: 1rem 0;">
       {% if person.email %}
-        <li><i class="fas fa-envelope"></i> {{ person.email }}</li>
+      <li style="margin-bottom: 0.5rem;"><i class="fas fa-envelope"></i> {{ person.email }}</li>
       {% endif %}
       {% if person.cv %}
-        <li><i class="fas fa-file-alt"></i> <a href="{{ person.cv }}" target="_blank">CV</a></li>
+      <li style="margin-bottom: 0.5rem;"><i class="fas fa-file-alt"></i> <a href="{{ person.cv }}" target="_blank">CV</a></li>
       {% endif %}
       {% if person.linkedin %}
-        <li><i class="fab fa-linkedin"></i> <a href="{{ person.linkedin }}" target="_blank">LinkedIn</a></li>
+      <li style="margin-bottom: 0.5rem;"><i class="fab fa-linkedin"></i> <a href="{{ person.linkedin }}" target="_blank">LinkedIn</a></li>
       {% endif %}
       {% if person.github %}
-        <li><i class="fab fa-github"></i> <a href="{{ person.github }}" target="_blank">GitHub</a></li>
+      <li style="margin-bottom: 0.5rem;"><i class="fab fa-github"></i> <a href="{{ person.github }}" target="_blank">GitHub</a></li>
       {% endif %}
       {% if person.googlescholar %}
-        <li><i class="ai ai-google-scholar"></i> <a href="{{ person.googlescholar }}" target="_blank">Google Scholar</a></li>
+      <li style="margin-bottom: 0.5rem;"><i class="ai ai-google-scholar ai-fw"></i> <a href="{{ person.googlescholar }}" target="_blank">Google Scholar</a></li>
       {% endif %}
     </ul>
 
     <p>{{ person.about }}</p>
   </div>
 
+  <!-- Image section: 1/3 width -->
   <div style="flex: 1; min-width: 250px;">
     {% for img in person.images %}
       <img src="/assets/img/people/{{ img }}" alt="{{ person.name }}" style="width: 100%; border-radius: 10px; margin-bottom: 0.5rem;">
