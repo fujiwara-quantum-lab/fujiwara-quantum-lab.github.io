@@ -1,6 +1,6 @@
 ---
 id: fujiwara
-name: Cora Fujiwara
+myname: Cora Fujiwara
 role: Assistant Professor
 email: cjf [at] lehigh [dot] edu
 cv: /assets/docs/fujiwara_cv.pdf
