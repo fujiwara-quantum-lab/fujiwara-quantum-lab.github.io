@@ -41,13 +41,9 @@
 
       {% if person.cv %}
       <div style="text-align: center;">
-        <a href="{{ person.cv }}" target="_blank" style="display: inline-flex; align-items: center; gap: 0.3rem;">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="18" height="18" fill="#E63946">
-            <path d="M181.9 256c0 34.8-28.2 63-63 63s-63-28.2-63-63 28.2-63 63-63 63 28.2 63 63zm202.1 0c0-118.9-96.1-215-215-215S-46 137.1-46 256s96.1 215 215 215 215-96.1 215-215zm-215 167c-92.1 0-167-74.9-167-167S76.9 89 169 89s167 74.9 167 167-74.9 167-167 167z"/>
-          </svg>
-          <span style="font-size: 0.9rem;">CV</span>
-        </a>
+        <i class="fas fa-file-alt" style="color: #6B7280;"></i>
       </div>
+      <div><a href="{{ person.cv }}" target="_blank" style="font-size: 0.9rem;">CV</a></div>
       {% endif %}
 
       {% if person.linkedin %}
