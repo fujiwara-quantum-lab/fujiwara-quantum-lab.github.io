@@ -231,20 +231,21 @@ html {
   text-decoration: underline;
 }
 
-/* TOC - Fix it to the top right */
+/* TOC styling */
 #markdown-toc {
-  position: fixed; /* Fixed position to keep it at the top right */
-  top: 100px; /* Offset from the top to prevent sticking too close to the top */
-  right: 0; /* Stick it to the right edge */
-  width: 220px; /* Set the width for TOC */
+  position: absolute; /* This positions the TOC inside the content container */
+  top: 100px; /* Keep it a bit below the top */
+  right: 0; /* Place it on the right side */
+  width: 220px; /* Width for the TOC */
   background: #f9f9f9;
   border: 1px solid #ddd;
   padding: 1rem;
   border-radius: 8px;
   font-size: 0.9rem;
-  z-index: 10; /* Ensure TOC stays above the content */
-  margin-bottom: 2rem; /* Margin at the bottom to keep space */
-  overflow-y: auto; /* Allows scrolling if the TOC overflows */
+  z-index: 10; /* Ensures it appears above other content */
+  margin-bottom: 2rem; /* Keep some space below */
+  max-height: calc(100vh - 100px); /* Limit TOC height to the viewport */
+  overflow-y: auto; /* Allows scrolling in the TOC */
 }
 
 /* Content wrapper should not be affected by TOC */
