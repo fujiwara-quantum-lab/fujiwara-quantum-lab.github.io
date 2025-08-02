@@ -5,9 +5,9 @@ permalink: /people/
 ---
 # People
 
-{% for entry in site.data.people %}
-  {% assign person = site.pages | where: "id", entry.id | first %}
-  {% include member_card.html person=person %}
+
+{% for person in site.people %}
+  {% include person_card.html person=person %}
 {% endfor %}
 
 ---
