@@ -17,6 +17,8 @@ Please direct all inquiries to the group PI - Cora Fujiwara.
 	  
 	  Our facilities are located on the first floor of Lewis Lab ###, and the main office for the department is XXX.  Note that the building and all rooms require key access outside
 	  of normal business hours.
+	  
+	  Lehigh University may be accessed locally via the Lehigh Valley International Airport (ABE) or with a reasonable car ride from nearby metropolitan aiports such as Philadelphia International Airport, Newark International Airport, and John F. Kennedy Airport.
     </p>
     <p>
       Visitors can park at the nearby Alumni Memorial Parking Garage.
