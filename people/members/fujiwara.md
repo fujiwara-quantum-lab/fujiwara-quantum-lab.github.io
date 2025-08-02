@@ -6,7 +6,7 @@ email: cjf [at] lehigh [dot] edu
 cv: /assets/docs/fujiwara_cv.pdf
 linkedin: https://linkedin.com/in/fujiwara
 about: >
-  Dr. Fujiwara leads the ultracold atom research group. He is passionate about exploring quantum many-body physics using atomic systems.
+  Dr. Fujiwara leads the ultracold atom research group. She is passionate about exploring quantum many-body physics using atomic systems.
 images:
   - fujiwara_1.jpg
 ---

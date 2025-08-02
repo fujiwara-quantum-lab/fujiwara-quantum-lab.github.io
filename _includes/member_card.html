@@ -3,7 +3,7 @@
     <h2>{{ person.name }}</h2>
     <p><strong>{{ person.role }}</strong></p>
     {% if person.email %}
-      <p><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+      <p>{{ person.email }}</p>
     {% endif %}
     {% if person.cv %}
       <p><a href="{{ person.cv }}" target="_blank">CV</a></p>
