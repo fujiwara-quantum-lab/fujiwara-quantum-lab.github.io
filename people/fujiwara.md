@@ -6,7 +6,7 @@ education:
   - Ph.D. in Physics, University of California Santa Barbara, 2019.
   - M.A. in Physics, University of California Santa Barbara, 2015.
   - B.A. in Physics, University of California Berkeley, 2012.
-phone: 123-123-123
+phone: 610-758-3649
 office: Lewis Lab 413
 email: cjf [at] lehigh [dot] edu
 cv: /assets/docs/fujiwara_cv.pdf
