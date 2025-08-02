@@ -20,7 +20,7 @@ menu:
   - {name: teaching, url: /teaching/}
   - {name: resources,  url: /resources/}
   - {name: openings,  url: /openings/}
-  - {name: contact us, url: /contact-us/}
+  - {name: visiting?, url: /contact-us/}
     
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
