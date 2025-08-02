@@ -21,6 +21,7 @@ html {
   margin-bottom: 4rem;
     font-family: $sans-serif-font-family;
 	  font-size: 1rem; /* or whatever size you prefer */
+	position: relative;
 }
 
 /*48em*/
@@ -253,18 +254,3 @@ html {
   overflow-y: auto; /* Allows TOC to scroll if needed */
 }
 
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  .content-container {
-    flex-direction: column; /* Stack TOC and content on mobile */
-  }
-
-  .toc-container {
-    position: relative; /* Let TOC flow with content on mobile */
-    width: 100%; /* Full width on mobile */
-  }
-
-  .content-with-toc-container {
-    padding-right: 0; /* No padding on mobile */
-  }
-}
