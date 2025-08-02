@@ -230,3 +230,29 @@ html {
 .banner-link:hover {
   text-decoration: underline;
 }
+
+.toc-sidebar {
+  position: sticky;
+  top: 100px; /* Adjust depending on your header height */
+  width: 250px;
+  float: right;
+  margin-left: 2rem;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.main-content {
+  max-width: 650px;
+}
+
+#markdown-toc ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+#markdown-toc li {
+  margin-bottom: 0.5rem;
+}

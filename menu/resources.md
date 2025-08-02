@@ -5,8 +5,14 @@ permalink: /resources/
 ---
 
 
+
+<div class="toc-sidebar">
 * Table of Contents
 {:toc}
+</div>
+
+
+<div class="main-content">
 
 # Resources
 
@@ -33,3 +39,5 @@ These expectations are in addition to any laws or policies external to the group
 ## Graduates
 
 ## Postdocs
+
+</div>
