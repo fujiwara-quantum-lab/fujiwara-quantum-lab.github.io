@@ -2,6 +2,8 @@
 id: fujiwara
 myname: Cora Fujiwara
 role: Assistant Professor
+phone: 123-123-123
+office: Lewis Lab 413
 email: cjf [at] lehigh [dot] edu
 cv: /assets/docs/fujiwara_cv.pdf
 linkedin: https://www.linkedin.com/in/cora-fujiwara-8038921b3

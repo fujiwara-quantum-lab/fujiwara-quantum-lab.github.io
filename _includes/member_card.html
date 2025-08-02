@@ -4,8 +4,15 @@
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 3rem; align-items: flex-start;">
   <!-- Text Section (2/3 width) -->
   <div style="flex: 2; min-width: 300px;">
-    <h2 style="margin-top: 0;">{{ person.myname }}</h2>
-    <p><strong>{{ person.role }}</strong></p>
+<h2 style="margin-top: 0; font-size: 2rem;">{{ person.myname }}</h2>
+  <p style="font-size: 1.25rem; font-weight: bold;">{{ person.role }}</p>
+
+<!-- Education Section (Multiline Text) -->
+  {% if person.education %}
+    <div style="margin-bottom: 1rem;">
+      {{ person.education | markdownify }}
+    </div>
+  {% endif %}
 
     <ul style="list-style: none; padding: 0; margin: 1rem 0;">
       {% if person.email %}
@@ -16,6 +23,24 @@
         <span>{{ person.email }}</span>
       </li>
       {% endif %}
+	  
+	  {% if person.phone %}
+    <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+      <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+        <i class="fas fa-phone"></i>
+      </span>
+      <span>{{ person.phone }}</span>
+    </li>
+    {% endif %}
+	  
+	  {% if person.office %}
+    <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+      <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+        <i class="fas fa-map-marker-alt"></i>
+      </span>
+      <span>{{ person.office }}</span>
+    </li>
+    {% endif %}
 
       {% if person.cv %}
       <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
