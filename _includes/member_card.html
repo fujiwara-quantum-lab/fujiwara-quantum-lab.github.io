@@ -8,12 +8,11 @@
     <p style="font-size: 1.5rem; font-weight: bold; margin: 0 0 0.5rem 0;">{{ person.role }}</p>
 
     <!-- Education Section -->
-    {% if person.education %}
-    <p style="margin: 0 0 1rem 0; white-space: pre-line;">
-      {{ person.education }}
-    </p>
-    {% endif %}
-
+{% if person.education %}
+<div style="margin: 0 0 1rem 0; white-space: pre-line; line-height: 1.4;">
+  {{ person.education }}
+</div>
+{% endif %}
     <!-- Contact Info List -->
     <ul style="list-style: none; padding: 0; margin: 0 0 1rem 0;">
       {% if person.email %}
