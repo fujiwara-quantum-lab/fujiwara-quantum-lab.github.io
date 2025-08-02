@@ -7,7 +7,7 @@ permalink: /people/
 
 {% for entry in site.data.people %}
   {% assign person = site.pages | where: "id", entry.id | first %}
-  {% include person_card.html person=person %}
+  {% include member_card.html person=person %}
 {% endfor %}
 
 ### Alumni
