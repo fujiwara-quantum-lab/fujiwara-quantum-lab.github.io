@@ -17,12 +17,12 @@
     {% endif %}
 
     <!-- Contact Info Grid -->
-    <div style="display: grid; grid-template-columns: 1.5rem auto; row-gap: 0rem; column-gap: 0.5rem; align-items: center; margin: 0 0 1rem 0;">
+    <div style="display: grid; grid-template-columns: 1.5rem auto; row-gap: 0rem; column-gap: 0.5rem; align-items: center; margin: 0 0 0rem 0;">
       {% if person.email %}
       <div style="text-align: center;">
         <i class="fas fa-envelope" style="color: #1D4ED8;"></i>
       </div>
-      <div style="font-size: 0.9rem;">{{ person.email }}</div>
+      <div style="font-size: 1.2rem;">{{ person.email }}</div>
       {% endif %}
 
       {% if person.phone %}
