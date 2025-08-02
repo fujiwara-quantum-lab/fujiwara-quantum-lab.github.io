@@ -67,11 +67,12 @@
       <div><a href="{{ person.googlescholar }}" target="_blank" style="font-size: 1rem;">Google Scholar</a></div>
       {% endif %}
     </div>
-
-  
-	<div>
-  {% include_relative {{ person.id }}_about.md %}
+        {% if person.about %}
+<div>
+  {{ person.about | markdownify }}
 </div>
+      {% endif %}
+
   </div>
 
   <!-- Image Section (1/3 width) -->
