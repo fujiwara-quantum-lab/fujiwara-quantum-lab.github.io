@@ -4,6 +4,12 @@ title: Resources
 permalink: /resources/
 ---
 
+
+* Table of Contents
+{:toc}
+
+# Resources
+
 Please find the following resources and policies of the group. Additional documents may be found on the Lab Wiki (access privileged).
 
 ## Code of Conduct

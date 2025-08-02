@@ -21,7 +21,9 @@ markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
-
+kramdown:
+  auto_ids: true
+  
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Fujiwara Lab'
 description:	       'Ultracold Quantum Matter'
@@ -30,3 +32,5 @@ author:              'Cora Fujiwara'
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
+
+
