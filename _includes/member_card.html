@@ -8,18 +8,19 @@
     <p style="font-size: 1.5rem; font-weight: bold; margin: 0 0 0.5rem 0;">{{ person.role }}</p>
 
     <!-- Education Section -->
-{% if person.education %}
-<div style="margin: 0 0 0.1rem 0; line-height: 1.4;">
-  {% for degree in person.education %}
-    <div>{{ degree }}</div>
-  {% endfor %}
-</div>
-{% endif %}
+    {% if person.education %}
+    <div style="margin: 0 0 1rem 0; line-height: 1.4;">
+      {% for degree in person.education %}
+        <div>{{ degree }}</div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
     <!-- Contact Info List -->
-    <ul style="list-style: none; padding: 0; margin: 0 0 0.1rem 0;">
+    <ul style="display: flex; flex-direction: column; gap: 0.2rem; list-style: none; padding: 0; margin: 0 0 0.5rem 0;">
       {% if person.email %}
-      <li style="display: flex; align-items: center; margin-bottom: 0.1rem; line-height: 1.2;">
-        <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+      <li style="display: flex; align-items: center;">
+        <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
           <i class="fas fa-envelope"></i>
         </span>
         <span>{{ person.email }}</span>
@@ -27,48 +28,53 @@
       {% endif %}
 
       {% if person.phone %}
-      <li style="display: flex; align-items: center; margin-bottom: 0.1rem; line-height: 1.2;">
-        <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+      <li style="display: flex; align-items: center;">
+        <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
           <i class="fas fa-phone"></i>
         </span>
         <span>{{ person.phone }}</span>
       </li>
       {% endif %}
+
       {% if person.office %}
-      <li style="display: flex; align-items: center; margin-bottom: 0.1rem; line-height: 1.2;">
-        <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+      <li style="display: flex; align-items: center;">
+        <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
           <i class="fas fa-map-marker-alt"></i>
         </span>
         <span>{{ person.office }}</span>
       </li>
       {% endif %}
+
       {% if person.cv %}
-      <li style="display: flex; align-items: center; margin-bottom: 0.1rem; line-height: 1.2;">
-        <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+      <li style="display: flex; align-items: center;">
+        <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
           <i class="fas fa-file-alt"></i>
         </span>
         <a href="{{ person.cv }}" target="_blank">CV</a>
       </li>
       {% endif %}
+
       {% if person.linkedin %}
-      <li style="display: flex; align-items: center; margin-bottom: 0.1rem; line-height: 1.2;">
-        <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+      <li style="display: flex; align-items: center;">
+        <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
           <i class="fab fa-linkedin"></i>
         </span>
         <a href="{{ person.linkedin }}" target="_blank">LinkedIn</a>
       </li>
       {% endif %}
+
       {% if person.github %}
-      <li style="display: flex; align-items: center; margin-bottom: 0.1rem; line-height: 1.2;">
-        <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+      <li style="display: flex; align-items: center;">
+        <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
           <i class="fab fa-github"></i>
         </span>
         <a href="{{ person.github }}" target="_blank">GitHub</a>
       </li>
       {% endif %}
+
       {% if person.googlescholar %}
-      <li style="display: flex; align-items: center; margin-bottom: 0.1rem; line-height: 1.2;">
-        <span style="width: 1.5rem; display: inline-flex; justify-content: center;">
+      <li style="display: flex; align-items: center;">
+        <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
           <i class="fab fa-google"></i>
         </span>
         <a href="{{ person.googlescholar }}" target="_blank">Google Scholar</a>
