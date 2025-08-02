@@ -17,67 +17,67 @@
     {% endif %}
 
     <!-- Contact Info List -->
-    <ul style="display: flex; flex-direction: column; gap: 0.0rem; list-style: none; padding: 0; margin: 0 0 0rem 0;">
+    <ul style="display: flex; flex-direction: column; gap: 0rem; list-style: none; padding: 0; margin: 0 0 0.5rem 0;">
       {% if person.email %}
       <li style="display: flex; align-items: center;">
         <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
-          <i class="fas fa-envelope"></i>
+          <i class="fas fa-envelope" style="color: #0056b3;"></i>
         </span>
-        <span>{{ person.email }}</span>
+        <span style="font-size: 0.9rem; line-height: 1;">{{ person.email }}</span>
       </li>
       {% endif %}
 
       {% if person.phone %}
       <li style="display: flex; align-items: center;">
         <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
-          <i class="fas fa-phone"></i>
+          <i class="fas fa-phone" style="color: #0056b3;"></i>
         </span>
-        <span>{{ person.phone }}</span>
+        <span style="font-size: 0.9rem; line-height: 1;">{{ person.phone }}</span>
       </li>
       {% endif %}
 
       {% if person.office %}
       <li style="display: flex; align-items: center;">
         <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
-          <i class="fas fa-map-marker-alt"></i>
+          <i class="fas fa-door-closed" style="color: #0056b3;"></i>
         </span>
-        <span>{{ person.office }}</span>
+        <span style="font-size: 0.9rem; line-height: 1;">{{ person.office }}</span>
       </li>
       {% endif %}
 
       {% if person.cv %}
       <li style="display: flex; align-items: center;">
         <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
-          <i class="fas fa-file-alt"></i>
+          <i class="fas fa-file-alt" style="color: #0056b3;"></i>
         </span>
-        <a href="{{ person.cv }}" target="_blank">CV</a>
+        <a href="{{ person.cv }}" target="_blank" style="font-size: 0.9rem; line-height: 1;">CV</a>
       </li>
       {% endif %}
 
       {% if person.linkedin %}
       <li style="display: flex; align-items: center;">
         <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
-          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-linkedin" style="color: #0A66C2;"></i>
         </span>
-        <a href="{{ person.linkedin }}" target="_blank">LinkedIn</a>
+        <a href="{{ person.linkedin }}" target="_blank" style="font-size: 0.9rem; line-height: 1;">LinkedIn</a>
       </li>
       {% endif %}
 
       {% if person.github %}
       <li style="display: flex; align-items: center;">
         <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
-          <i class="fab fa-github"></i>
+          <i class="fab fa-github" style="color: #181717;"></i>
         </span>
-        <a href="{{ person.github }}" target="_blank">GitHub</a>
+        <a href="{{ person.github }}" target="_blank" style="font-size: 0.9rem; line-height: 1;">GitHub</a>
       </li>
       {% endif %}
 
       {% if person.googlescholar %}
       <li style="display: flex; align-items: center;">
         <span style="width: 1.5rem; display: inline-flex; justify-content: center; align-items: center;">
-          <i class="fab fa-google"></i>
+          <i class="fab fa-google" style="color: #4285F4;"></i>
         </span>
-        <a href="{{ person.googlescholar }}" target="_blank">Google Scholar</a>
+        <a href="{{ person.googlescholar }}" target="_blank" style="font-size: 0.9rem; line-height: 1;">Google Scholar</a>
       </li>
       {% endif %}
     </ul>
