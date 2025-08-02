@@ -1,5 +1,4 @@
 <!-- _includes/carousel.html -->
-<!-- Swiper CSS -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 <style>
@@ -26,8 +25,7 @@
     border-radius: 12px;
     overflow: hidden;
     width: 100%;
-    max-width: var(--carousel-max-width, 100%);
-    max-height: var(--carousel-max-height, 100%);
+    max-width: 100%;
   }
 
   .swiper-slide figure {
@@ -92,7 +90,7 @@
   </div>
   {% endif %}
 
-  <div class="carousel-wrapper" style="--carousel-max-width: {{ include.max_width | default: '100%' }}; --carousel-max-height: {{ include.max_height | default: 'none' }};">
+  <div class="carousel-wrapper" style="max-width: {{ include.max_width | default: '100%' }}; max-height: {{ include.max_height | default: 'none' }};">
     <div class="swiper" id="{{ include.id | default: 'swiper-carousel' }}">
       <div class="swiper-wrapper">
         {% assign sorted_images = include.images | sort: "filename" %}
@@ -113,12 +111,12 @@
   </div>
 </div>
 
-<!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    var id = "#{{ include.id | default: 'swiper-carousel' }}";
-    if (!document.querySelector(id).classList.contains("swiper-initialized")) {
+    const id = "#{{ include.id | default: 'swiper-carousel' }}";
+    const swiperEl = document.querySelector(id);
+    if (swiperEl && !swiperEl.classList.contains("swiper-initialized")) {
       new Swiper(id, {
         loop: true,
         slidesPerView: 1,
