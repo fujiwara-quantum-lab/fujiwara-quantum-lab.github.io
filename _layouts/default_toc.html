@@ -10,7 +10,16 @@
 
     <!-- Content container with TOC included -->
     <div class="content-container">	
-		  {{content}}
+<div class="toc-container" id="markdown-toc">
+			* Table of Contents
+			{:toc}
+</div>
+    
+<div class="content-with-toc-container">
+  {{content}}
+</div>	
+
+
     </div>
 
     {% include footer.html %}
