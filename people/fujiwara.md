@@ -18,7 +18,7 @@ about: >
  Lehigh University, Cora was a postdoctoral fellow at Centre for Quantum Information and Quantum Control at the University of Toronto and was a postdoctoral researcher in the group of Joseph Thywissen. At the University of Toronto, Cora 
  worked on experiments engineering novel p-wave interactions of identical fermions in optical lattices and transport measurements in the 3D fermi-hubbard model using quantum gas microscopy. 
  Cora received her PhD in 2019 in the group of David Weld at the University of California, Santa Barbara where she helped build a laboratory to investigate the dynamics of ultracold lithium in strongly driven optical lattices. 
-Cora's journey in experimental physics began with exploring the fields of condensed matter experiment and astrophysics at the University of California, Berkeley.  She received her BA in Physics there in 2012 after working at the Space Sciences Laboratory investigating microchannel plate design for flight missions.
+Cora's journey in experimental physics began with exploring the fields of experimental condensed matter physics and observational astrophysics at the University of California, Berkeley.  She received her BA in Physics there in 2012 after working at the Space Sciences Laboratory investigating microchannel plate design for flight missions.
 images:
   - fujiwara_1.jpg
 ---
