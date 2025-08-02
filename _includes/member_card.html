@@ -16,56 +16,58 @@
     </div>
     {% endif %}
 
-  <div style="display: grid; grid-template-columns: 1.2rem auto; align-items: center; margin: 0 0 0rem 0; font-size: 0.85rem; line-height: 1;">
-  {% if person.email %}
-  <div style="text-align: center;">
-    <i class="fas fa-envelope" style="color: #1D4ED8;"></i>
-  </div>
-  <div>{{ person.email }}</div>
-  {% endif %}
+    <!-- Contact Info Grid -->
+    <div style="display: grid; grid-template-columns: 1.5rem auto; row-gap: 0rem; column-gap: 0.5rem; align-items: center; margin: 0 0 0rem 0;">
+      {% if person.email %}
+      <div style="text-align: center;">
+        <i class="fas fa-envelope" style="color: #1D4ED8;"></i>
+      </div>
+      <div style="font-size: 1rem;">{{ person.email }}</div>
+      {% endif %}
 
-  {% if person.phone %}
-  <div style="text-align: center;">
-    <i class="fas fa-phone" style="color: #065F46;"></i>
-  </div>
-  <div>{{ person.phone }}</div>
-  {% endif %}
+      {% if person.phone %}
+      <div style="text-align: center;">
+        <i class="fas fa-phone" style="color: #065F46;"></i>
+      </div>
+      <div style="font-size: 1rem;">{{ person.phone }}</div>
+      {% endif %}
 
-  {% if person.office %}
-  <div style="text-align: center;">
-    <i class="fas fa-door-closed" style="color: #6E4C1E;"></i>
-  </div>
-  <div>{{ person.office }}</div>
-  {% endif %}
+      {% if person.office %}
+      <div style="text-align: center;">
+        <i class="fas fa-door-closed" style="color: #6E4C1E;"></i>
+      </div>
+      <div style="font-size: 1rem;">{{ person.office }}</div>
+      {% endif %}
 
-  {% if person.cv %}
-  <div style="text-align: center;">
-    <i class="fas fa-file-alt" style="color: #6B7280;"></i>
-  </div>
-  <div><a href="{{ person.cv }}" target="_blank">CV</a></div>
-  {% endif %}
+      {% if person.cv %}
+      <div style="text-align: center;">
+        <i class="fas fa-file-alt" style="color: #6B7280;"></i>
+      </div>
+      <div><a href="{{ person.cv }}" target="_blank" style="font-size: 1rem;">CV</a></div>
+      {% endif %}
 
-  {% if person.linkedin %}
-  <div style="text-align: center;">
-    <i class="fab fa-linkedin" style="color: #0A66C2;"></i>
-  </div>
-  <div><a href="{{ person.linkedin }}" target="_blank">LinkedIn</a></div>
-  {% endif %}
+      {% if person.linkedin %}
+      <div style="text-align: center;">
+        <i class="fab fa-linkedin" style="color: #0A66C2;"></i>
+      </div>
+      <div><a href="{{ person.linkedin }}" target="_blank" style="font-size: 1rem;">LinkedIn</a></div>
+      {% endif %}
 
-  {% if person.github %}
-  <div style="text-align: center;">
-    <i class="fab fa-github" style="color: #181717;"></i>
-  </div>
-  <div><a href="{{ person.github }}" target="_blank">GitHub</a></div>
-  {% endif %}
+      {% if person.github %}
+      <div style="text-align: center;">
+        <i class="fab fa-github" style="color: #181717;"></i>
+      </div>
+      <div><a href="{{ person.github }}" target="_blank" style="font-size: 1rem;">GitHub</a></div>
+      {% endif %}
 
-  {% if person.googlescholar %}
-  <div style="text-align: center;">
-    <i class="fab fa-google" style="color: #4285F4;"></i>
-  </div>
-  <div><a href="{{ person.googlescholar }}" target="_blank">Google Scholar</a></div>
-  {% endif %}
-</div>
+      {% if person.googlescholar %}
+      <div style="text-align: center;">
+        <i class="fab fa-google" style="color: #4285F4;"></i>
+      </div>
+      <div><a href="{{ person.googlescholar }}" target="_blank" style="font-size: 1rem;">Google Scholar</a></div>
+      {% endif %}
+    </div>
+
     <p>{{ person.about }}</p>
   </div>
 
