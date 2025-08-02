@@ -234,12 +234,18 @@ html {
 #markdown-toc {
   position: sticky;
   top: 100px;
-  width: 250px;
+  width: 220px;
   float: right;
   margin-left: 2rem;
+  margin-bottom: 2rem;
   background: #f9f9f9;
   border: 1px solid #ddd;
   padding: 1rem;
   border-radius: 8px;
   font-size: 0.9rem;
+}
+
+/* Clear floats after TOC */
+#markdown-toc + * {
+  clear: right;
 }
