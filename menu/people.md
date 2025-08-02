@@ -3,6 +3,7 @@ layout: default
 title: people
 permalink: /people/
 ---
+people
 
 {% for entry in site.data.people %}
   {% assign person = site.pages | where: "id", entry.id | first %}
