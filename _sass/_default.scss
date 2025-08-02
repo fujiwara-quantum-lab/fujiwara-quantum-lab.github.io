@@ -5,7 +5,11 @@ html {
   font-size: 12px; /* Or a percentage like 62.5% for easier rem calculations (1rem = 10px) */
 }
 
-
+.person-divider {
+  border: none;
+  border-top: 1px solid #cccccc;  /* Light gray line */
+  margin: 2rem 0;
+}
 
 .container {
   margin-left: auto;

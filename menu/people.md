@@ -7,6 +7,7 @@ permalink: /people/
 {% for entry in site.data.people %}
   {% assign person = site.pages | where: "id", entry.id | first %}
   {% include member_card.html person=person %}
+    <hr class="person-divider">
 {% endfor %}
 
 <!--
