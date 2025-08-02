@@ -11,6 +11,9 @@
     {% if person.linkedin %}
       <p><a href="{{ person.linkedin }}" target="_blank">LinkedIn</a></p>
     {% endif %}
+	{% if person.googlescholar %}
+      <p><a href="{{ person.googlescholar }}" target="_blank">Google Scholar</a></p>
+    {% endif %}
     <p>{{ person.about }}</p>
   </div>
 
