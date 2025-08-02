@@ -5,11 +5,9 @@ permalink: /people/
 ---
 # People
 
-
 {% for person in site.people %}
   {% include person_card.html person=person %}
 {% endfor %}
-
 ---
 
 ### Alumni
