@@ -15,13 +15,13 @@ googlescholar: https://scholar.google.com/citations?user=rlZHLjwAAAAJ
 github: https://github.com/cjfujiwara
 images:
   - filename: fujiwara_1.jpg
-  caption:
+    caption:
   - filename: fujiwara_2.jpg
-  caption: Skiing in the dolomites (2021)
-  - filename:fujiwara_3.jpg
-  caption: Backpacking in Uintas Utah USA (2024)
-  - filename:fujiwara_4.jpg
-  caption: Momo the Cat.
+    caption: Skiing in the Dolomites (2021)
+  - filename: fujiwara_3.jpg
+    caption: Backpacking in Uintas, Utah (2024)
+  - filename: fujiwara_4.jpg
+    caption: Momo the Cat
 about: |
   Cora is an experimental atomic physicist with broad interests including many-body quantum physics, non-equilibrium quantum dynamics, and quantum control.  Prior to joining Lehigh University, Cora was a postdoctoral researcher at the University of Toronto, working with the Centre for Quantum Information and Quantum Control and in the group of Joseph Thywissen. At the University of Toronto, Cora worked on experiments engineering novel p-wave interactions of identical fermions in optical lattices and transport measurements in the 3D Fermi-Hubbard model using quantum gas microscopy.  Cora received her PhD in 2019 in the group of David Weld at the University of California, Santa Barbara, where she helped build a laboratory to investigate the dynamics of ultracold lithium in strongly driven optical lattices. Cora's journey in experimental physics began with exploring experimental condensed matter physics and observational astrophysics at the University of California, Berkeley. She received her BA in Physics there in 2012 after working at the Space Sciences Laboratory investigating microchannel plate design for flight missions.
 
