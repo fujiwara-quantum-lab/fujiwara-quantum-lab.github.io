@@ -231,9 +231,9 @@ html {
   text-decoration: underline;
 }
 
-.toc-sidebar {
+#markdown-toc {
   position: sticky;
-  top: 100px; /* Adjust depending on your header height */
+  top: 100px;
   width: 250px;
   float: right;
   margin-left: 2rem;
@@ -242,17 +242,4 @@ html {
   padding: 1rem;
   border-radius: 8px;
   font-size: 0.9rem;
-}
-
-.main-content {
-  max-width: 650px;
-}
-
-#markdown-toc ul {
-  list-style: none;
-  padding-left: 1rem;
-}
-
-#markdown-toc li {
-  margin-bottom: 0.5rem;
 }
