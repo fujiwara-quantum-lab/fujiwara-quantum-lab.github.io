@@ -29,10 +29,22 @@
 
   <!-- Menu Bar Below -->
   <div class="menu-social-bar">
-    <div class="menu-links">
+<div class="menu-links">
   {% for item in site.data.settings.menu %}
-    <a href="{{ site.github.url }}/{{ item.url }}" 
-       class="{% if page.url == item.url %}active{% endif %}">{{ item.name }}</a>
+    {% if item.name == "Resources" %}
+      <div class="dropdown">
+        <a href="{{ site.github.url }}/{{ item.url }}" 
+           class="{% if page.url contains '/resources' %}active{% endif %}">{{ item.name }}</a>
+        <div class="dropdown-content">
+          <a href="{{ site.github.url }}/teaching/">Teaching</a>
+          <a href="{{ site.github.url }}/code-of-conduct/">Code of Conduct</a>
+          <a href="{{ site.github.url }}/data/">Available Data</a>
+        </div>
+      </div>
+    {% else %}
+      <a href="{{ site.github.url }}/{{ item.url }}" 
+         class="{% if page.url == item.url %}active{% endif %}">{{ item.name }}</a>
+    {% endif %}
   {% endfor %}
 </div>
   </div>

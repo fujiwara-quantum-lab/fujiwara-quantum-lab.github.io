@@ -329,3 +329,43 @@ html {
   border-bottom: 4px solid black;
   margin: 0;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position below the parent */
+  left: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: block;
+  color: $lehigh-brown-80;
+  background-color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show submenu on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+/* Ensure 'Resources' stays highlighted when its submenu is active */
+.menu-links a.active {
+  background-color: black;
+  color: white;
+}
