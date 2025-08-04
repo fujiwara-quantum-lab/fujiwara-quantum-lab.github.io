@@ -272,7 +272,7 @@ html {
 .header2-right .lehigh-logo {
   height: 40px; /* Adjust here for UNIVERSITY logo height */
 }
-/* MENU & SOCIAL BAR */
+
 .menu-social-bar {
   display: flex;
   justify-content: space-between;
@@ -282,30 +282,7 @@ html {
   width: 100%;
 }
 
-/* MENU LINKS */
-.menu-links {
-  display: flex;
-  gap: 2rem;
-  font-family: $sans-serif-font-family;
-  font-size: 2rem;
-  a {
-    color: $lehigh-brown-80;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-.menu-social-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
-/* MENU LINKS */
+/* MENU LINKS STYLING */
 .menu-links {
   display: flex;
   gap: 2rem;
@@ -320,22 +297,21 @@ html {
   }
 }
 
-/* SOCIAL ICONS */
+/* SOCIAL ICONS STYLING */
 .social-icons {
   display: flex;
   gap: 1rem;
   align-items: center;
-  justify-content: flex-end;
+  /* Right alignment happens via parent flex 'space-between' */
 }
 
-/* SVG Icon Styling */
 .social-svg {
   width: 28px;
   height: 28px;
   display: inline-block;
 }
 
-/* Divider Bar */
+/* Divider */
 .header-divider {
   border-bottom: 4px solid black;
   margin: 0;
