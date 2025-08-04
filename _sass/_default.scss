@@ -254,56 +254,65 @@ html {
   overflow-y: auto; /* Allows TOC to scroll if needed */
 }
 
-
-/* HEADER2 BANNER STYLING */
+/* HEADER2 CONTAINER */
 .header2-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0; /* Remove padding that caused offset */
+  margin: 0;
 }
 
+/* Lab Logo: Adjustable Height */
 .header2-left .lab-logo {
-  height: 80px; /* adjust as needed */
+  height: 80px; /* Adjust here for LAB logo height */
 }
 
+/* Lehigh Logo: Adjustable Height */
 .header2-right .lehigh-logo {
-  height: 60px; /* adjust as needed */
+  height: 60px; /* Adjust here for UNIVERSITY logo height */
 }
 
-/* MENU AND SOCIAL ICONS BAR */
+/* MENU & SOCIAL BAR */
 .menu-social-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 2rem;
+  padding: 0; /* Remove unwanted padding */
+  margin: 0;
 }
 
+/* MENU LINKS */
 .menu-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
+  font-family: $sans-serif-font-family; /* Ensures sans-serif font */
+  font-size: 1.25rem; /* Increase text size */
   a {
     color: $lehigh-brown-80;
     text-decoration: none;
-    font-size: 1rem;
     &:hover {
       text-decoration: underline;
     }
   }
 }
 
+/* SOCIAL ICONS */
 .social-icons {
   display: flex;
   gap: 1rem;
 }
 
+/* Each Social Icon as Background Image */
 .social-icon {
-  width: 24px;
-  height: 24px;
-  background-size: cover;
+  width: 28px;
+  height: 28px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
 }
 
-/* Individual Icon Coloring */
+/* Individual Icon Colors — These should point to correct image URLs */
 .github-icon {
   background-image: url('{{ site.github.url }}/assets/icons/github-black.svg');
 }
@@ -314,9 +323,8 @@ html {
   background-image: url('{{ site.github.url }}/assets/icons/youtube-red.svg');
 }
 
-/* Divider Bar */
+/* Divider Bar — Adjustable Thickness */
 .header-divider {
-  border-bottom: 3px solid $lehigh-brown-80; /* Adjust thickness here */
-  margin-top: 0.5rem;
+  border-bottom: 6px solid black; /* Adjust thickness here */
+  margin: 0;
 }
-
