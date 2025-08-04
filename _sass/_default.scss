@@ -318,10 +318,13 @@ html {
   }
 }
 
-.menu-links a.active {
-  background-color: black; /* Highlight background */
-  color: white; /* Text color when active */
-  padding: 0.2rem 0.5rem; /* Optional: add some inner spacing */
+/* Active Menu Highlight */
+.menu-links a.active,
+.menu-links .dropdown-label.active {
+  background-color: $lehigh-brown-60; /* Use your SCSS variable for Lehigh Brown 60 */
+  color: $lehigh-gold; /* Use your SCSS variable for Lehigh Gold */
+  padding: 0.2rem 0.5rem; /* Optional: gives it a button-like feel */
+  border-radius: 4px; /* Optional: slight rounding */
 }
 
 /* Divider */
