@@ -265,12 +265,12 @@ html {
 
 /* Lab Logo: Adjustable Height */
 .header2-left .lab-logo {
-  height: 80px; /* Adjust here for LAB logo height */
+  height: 60px; /* Adjust here for LAB logo height */
 }
 
 /* Lehigh Logo: Adjustable Height */
 .header2-right .lehigh-logo {
-  height: 60px; /* Adjust here for UNIVERSITY logo height */
+  height: 40px; /* Adjust here for UNIVERSITY logo height */
 }
 
 /* MENU & SOCIAL BAR */
@@ -287,7 +287,7 @@ html {
   display: flex;
   gap: 2rem;
   font-family: $sans-serif-font-family; /* Ensures sans-serif font */
-  font-size: 1.25rem; /* Increase text size */
+  font-size: 2rem; /* Increase text size */
   a {
     color: $lehigh-brown-80;
     text-decoration: none;
@@ -298,13 +298,13 @@ html {
 }
 
 /* SOCIAL ICONS */
-.social-icons {
+.social-icons2 {
   display: flex;
   gap: 1rem;
 }
 
 /* Each Social Icon as Background Image */
-.social-icon {
+.social-icon2 {
   width: 28px;
   height: 28px;
   background-size: contain;
@@ -313,18 +313,18 @@ html {
 }
 
 /* Individual Icon Colors — These should point to correct image URLs */
-.github-icon {
+.github-icon2 {
   background-image: url('{{ site.github.url }}/assets/icons/github-black.svg');
 }
-.x-icon {
+.x-icon2 {
   background-image: url('{{ site.github.url }}/assets/icons/x-blue.svg');
 }
-.youtube-icon {
+.youtube-icon2 {
   background-image: url('{{ site.github.url }}/assets/icons/youtube-red.svg');
 }
 
 /* Divider Bar — Adjustable Thickness */
-.header-divider {
+.header-divider2 {
   border-bottom: 6px solid black; /* Adjust thickness here */
   margin: 0;
 }
