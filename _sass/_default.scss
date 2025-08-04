@@ -254,3 +254,69 @@ html {
   overflow-y: auto; /* Allows TOC to scroll if needed */
 }
 
+
+/* HEADER2 BANNER STYLING */
+.header2-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.header2-left .lab-logo {
+  height: 80px; /* adjust as needed */
+}
+
+.header2-right .lehigh-logo {
+  height: 60px; /* adjust as needed */
+}
+
+/* MENU AND SOCIAL ICONS BAR */
+.menu-social-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+
+.menu-links {
+  display: flex;
+  gap: 1.5rem;
+  a {
+    color: $lehigh-brown-80;
+    text-decoration: none;
+    font-size: 1rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+}
+
+/* Individual Icon Coloring */
+.github-icon {
+  background-image: url('{{ site.github.url }}/assets/icons/github-black.svg');
+}
+.x-icon {
+  background-image: url('{{ site.github.url }}/assets/icons/x-blue.svg');
+}
+.youtube-icon {
+  background-image: url('{{ site.github.url }}/assets/icons/youtube-red.svg');
+}
+
+/* Divider Bar */
+.header-divider {
+  border-bottom: 3px solid $lehigh-brown-80; /* Adjust thickness here */
+  margin-top: 0.5rem;
+}
+
