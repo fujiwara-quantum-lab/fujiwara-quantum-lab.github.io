@@ -17,7 +17,6 @@ menu:
   - {name: people, url: /people/}
   - {name: publications,url: /publications/}
   - {name: news,      url: /news/}
-  - {name: teaching, url: /teaching/}
   - {name: resources,  url: /resources/}
   - {name: openings,  url: /openings/}
   - {name: contact us, url: /contact-us/}
