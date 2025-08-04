@@ -327,6 +327,12 @@ html {
   border-radius: 4px; /* Optional: slight rounding */
 }
 
+/* Ensure 'Resources' stays highlighted when its submenu is active */
+.menu-links a.active {
+  background-color: $lehigh-brown-60;
+  color: $lehigh-gold;
+}
+
 /* Divider */
 .header-divider {
   border-bottom: 4px solid black;
@@ -367,8 +373,3 @@ html {
   display: flex;
 }
 
-/* Ensure 'Resources' stays highlighted when its submenu is active */
-.menu-links a.active {
-  background-color: black;
-  color: white;
-}
