@@ -257,49 +257,43 @@ html {
 /* HEADER2 CONTAINER (Top Row: Lab Logo + Social Icons + Lehigh Logo) */
 .header2-container {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start; /* Align top edges */
+  justify-content: space-between; /* Pushes left-group and right logo apart */
+  align-items: flex-start; /* Top-align both groups */
   padding: 0;
   margin: 0;
   width: 100%;
 }
 
-/* Left Block: Lab Logo + Social Icons inline */
-.header2-left {
+/* Group: Lab Logo + Social Icons (INLINE) */
+.header2-left-group {
   display: flex;
-  align-items: flex-start; /* Top-align logo and icons */
-  gap: 1rem; /* <-- Adjustable horizontal gap between Lab Logo and Social Icons */
+  align-items: flex-start; /* Align lab logo & icons top-aligned */
+  gap: 1rem; /* Adjustable horizontal gap between logo and first social icon */
 }
 
-/* Lab Logo Height Control */
+/* Lab Logo Size */
 .lab-logo {
-  height: 60px; /* <-- Adjust Lab Logo height */
+  height: 60px; /* Adjust lab logo height */
 }
 
-/* Social Icons next to Lab Logo */
+/* Social Icons Styling */
 .social-icons {
   display: flex;
-  gap: 0.5rem; /* <-- Adjust space between individual icons */
+  gap: 0.5rem; /* Gap between individual icons */
 }
 
-/* Individual Social Icon Size */
 .social-svg {
-  height: 15px; /* <-- Adjust Social Icon height */
+  height: 15px; /* Adjust social icon size */
   width: auto;
   display: inline-block;
 }
 
-/* Right Block: Lehigh Logo */
-.header2-right {
-  display: flex;
-  align-items: flex-start; /* Align top */
+/* Right-side Lehigh Logo */
+.header2-right .lehigh-logo {
+  height: 60px; /* Adjust Lehigh Logo height */
 }
 
-.lehigh-logo {
-  height: 60px; /* <-- Adjust Lehigh Logo height */
-}
-
-/* Second Row: Navigation Menu */
+/* Menu Bar */
 .menu-social-bar {
   display: flex;
   justify-content: flex-start;
