@@ -1,41 +1,40 @@
 <header class="header2">
   <div class="header2-container">
 
-    <!-- Left: Lab Logo (SVG) -->
-    <div class="header2-left">
+    <!-- Group: Lab Logo + Social Icons together in one container -->
+    <div class="header2-left-group">
       <img src="{{ site.github.url }}/assets/img/fujiwara_lab_logo.svg" alt="Fujiwara Lab Logo" class="lab-logo">
-    </div>
-	
-	<!-- Social icons, next to lab logo -->
-  <div class="social-icons">
-    <a href="https://github.com/fujiwara-quantum-lab" aria-label="GitHub" target="_blank">
-      <img src="https://cdn.simpleicons.org/github/000000" alt="GitHub" class="social-svg">
-    </a>
-    <a href="https://x.com/yourprofile" aria-label="X" target="_blank">
-      <img src="https://cdn.simpleicons.org/x/1DA1F2" alt="X" class="social-svg">
-    </a>
-    <a href="https://youtube.com/@fujiwara_amo" aria-label="YouTube" target="_blank">
-      <img src="https://cdn.simpleicons.org/youtube/FF0000" alt="YouTube" class="social-svg">
-    </a>
-  </div>
 
-    <!-- Top Right: Lehigh Logo -->
+      <div class="social-icons">
+        <a href="https://github.com/fujiwara-quantum-lab" aria-label="GitHub" target="_blank">
+          <img src="https://cdn.simpleicons.org/github/000000" alt="GitHub" class="social-svg">
+        </a>
+        <a href="https://x.com/yourprofile" aria-label="X" target="_blank">
+          <img src="https://cdn.simpleicons.org/x/1DA1F2" alt="X" class="social-svg">
+        </a>
+        <a href="https://youtube.com/@fujiwara_amo" aria-label="YouTube" target="_blank">
+          <img src="https://cdn.simpleicons.org/youtube/FF0000" alt="YouTube" class="social-svg">
+        </a>
+      </div>
+    </div>
+
+    <!-- Lehigh Logo Right -->
     <div class="header2-right">
       <a href="https://physics.cas.lehigh.edu/">
         <img src="{{ site.github.url }}/assets/img/Lehigh_University_Logo.png" alt="Lehigh Logo" class="lehigh-logo">
       </a>
     </div>
+
   </div>
 
-  <!-- Navigation Menu & Social Icons Bar -->
-<div class="menu-social-bar">
-  <!-- MENU LINKS LEFT -->
-  <div class="menu-links">
-    {% for item in site.data.settings.menu %}
-      <a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
-    {% endfor %}
+  <!-- Menu Bar Below -->
+  <div class="menu-social-bar">
+    <div class="menu-links">
+      {% for item in site.data.settings.menu %}
+        <a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
+      {% endfor %}
+    </div>
   </div>
-</div>
 
-<div class="header-divider"></div>
+  <div class="header-divider"></div>
 </header>
