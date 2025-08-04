@@ -15,17 +15,28 @@
   </div>
 
   <!-- Navigation Menu & Social Icons Bar -->
-  <div class="menu-social-bar">
-    <div class="menu-links">
-      {% include menu.html %}
-    </div>
-    <div class="social-icons">
-      <a href="https://github.com/fujiwara-quantum-lab" class="social-icon github-icon" aria-label="GitHub"></a>
-      <a href="https://x.com/yourprofile" class="social-icon x-icon" aria-label="X"></a>
-      <a href="https://youtube.com/@fujiwara_amo" class="social-icon youtube-icon" aria-label="YouTube"></a>
-    </div>
+<div class="menu-social-bar">
+
+  <!-- MENU LINKS LEFT -->
+  <div class="menu-links">
+    {% for item in site.data.settings.menu %}
+      <a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
   </div>
 
-  <!-- Divider Bar -->
-  <div class="header-divider"></div>
+  <!-- SOCIAL ICONS RIGHT -->
+  <div class="social-icons">
+    <a href="https://github.com/fujiwara-quantum-lab" aria-label="GitHub" target="_blank">
+      <img src="https://cdn.simpleicons.org/github/000000" alt="GitHub" class="social-svg">
+    </a>
+    <a href="https://x.com/yourprofile" aria-label="X" target="_blank">
+      <img src="https://cdn.simpleicons.org/x/1DA1F2" alt="X" class="social-svg">
+    </a>
+    <a href="https://youtube.com/@fujiwara_amo" aria-label="YouTube" target="_blank">
+      <img src="https://cdn.simpleicons.org/youtube/FF0000" alt="YouTube" class="social-svg">
+    </a>
+  </div>
+</div>
+
+<div class="header-divider"></div>
 </header>
