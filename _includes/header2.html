@@ -31,7 +31,7 @@
   <div class="menu-social-bar">
 <div class="menu-links">
   {% for item in site.data.settings.menu %}
-    {% if item.name == "Resources" %}
+    {% if item.name == "resources" %}
       <div class="dropdown">
         <a href="{{ site.github.url }}/{{ item.url }}" 
            class="{% if page.url contains '/resources' %}active{% endif %}">{{ item.name }}</a>
