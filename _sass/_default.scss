@@ -300,6 +300,8 @@ html {
   align-items: center;
   width: 100%;
   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
 }
 
 .menu-links {
@@ -314,6 +316,12 @@ html {
       text-decoration: underline;
     }
   }
+}
+
+.menu-links a.active {
+  background-color: black; /* Highlight background */
+  color: white; /* Text color when active */
+  padding: 0.2rem 0.5rem; /* Optional: add some inner spacing */
 }
 
 /* Divider */

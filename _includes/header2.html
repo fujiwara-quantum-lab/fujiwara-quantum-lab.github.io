@@ -30,10 +30,11 @@
   <!-- Menu Bar Below -->
   <div class="menu-social-bar">
     <div class="menu-links">
-      {% for item in site.data.settings.menu %}
-        <a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
-      {% endfor %}
-    </div>
+  {% for item in site.data.settings.menu %}
+    <a href="{{ site.github.url }}/{{ item.url }}" 
+       class="{% if page.url == item.url %}active{% endif %}">{{ item.name }}</a>
+  {% endfor %}
+</div>
   </div>
 
   <div class="header-divider"></div>
