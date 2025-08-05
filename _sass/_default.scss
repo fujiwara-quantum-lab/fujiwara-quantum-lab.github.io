@@ -411,12 +411,11 @@ html {
   border-top: 1px solid #cccccc;
   margin: 2rem 0;
 }
-
 .news-post.side-carousel {
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
   margin-bottom: 3rem;
-  flex-wrap: wrap;
 }
 
 .news-post .post-text {
@@ -427,16 +426,14 @@ html {
   flex: 1 1 50%;
 }
 
-.post-carousel img {
+.news-post .post-carousel img {
   width: 100%;
   height: auto;
-  object-fit: contain; /* or cover */
+  object-fit: contain; /* or cover if you prefer */
 }
 
-/* Mobile Stack */
 @media (max-width: 768px) {
   .news-post.side-carousel {
     flex-direction: column;
   }
 }
-
