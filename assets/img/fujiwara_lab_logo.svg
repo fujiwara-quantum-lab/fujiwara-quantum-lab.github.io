@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="98.155876mm"
-   height="15.410999mm"
-   viewBox="0 0 98.155876 15.410999"
+   width="85.528297mm"
+   height="15.454449mm"
+   viewBox="0 0 85.528297 15.454448"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -25,21 +25,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="132.08421"
-     inkscape:cy="-79.114946"
+     inkscape:zoom="5.6"
+     inkscape:cx="188.80596"
+     inkscape:cy="2.7384872"
      inkscape:document-units="mm"
-     inkscape:current-layer="g4767"
+     inkscape:current-layer="g4798"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1718"
-     inkscape:window-height="1360"
-     inkscape:window-x="1713"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -56,7 +56,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-2.1998638,-1.8633435)">
+     transform="translate(-3.8629598,-1.1341765)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot4612"
@@ -68,7 +68,7 @@
            height="213.57143"
            x="65"
            y="88.948257" /></flowRegion><flowPara
-         id="flowPara4618"></flowPara></flowRoot>    <g
+         id="flowPara4618" /></flowRoot>    <g
        id="g4639"
        transform="translate(-9.0871641,-30.213349)" />
     <g
@@ -79,44 +79,45 @@
       <g
          id="g4798">
         <text
-           transform="translate(-9.0871641,-30.21335)"
            id="text4610"
-           y="46.635902"
-           x="27.47995"
+           y="15.893386"
+           x="18.392786"
            style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            xml:space="preserve"><tspan
-             style="font-size:4.23333311px;stroke-width:0.26458332"
-             y="46.635902"
-             x="27.47995"
+             style="font-size:3.6230278px;stroke-width:0.26458332"
+             y="15.893386"
+             x="18.392786"
              id="tspan4608"
-             sodipodi:role="line">quantum science with ultracold atoms.</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f2c500;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="29.934185"
-           y="47.069752"
-           id="text3715"
-           transform="translate(-12.202515,-36.093278)"><tspan
-             sodipodi:role="line"
-             id="tspan3713"
-             x="29.934185"
-             y="47.069752"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.99444485px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold';fill:#f2c500;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:0">Fujiwara</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="80.955681"
-           y="47.069752"
-           id="text4624"
-           transform="translate(-12.202515,-36.093278)"><tspan
-             sodipodi:role="line"
-             id="tspan4622"
-             x="80.955681"
-             y="47.069752"
-             style="font-size:11.99444485px;stroke-width:0.26458332">Lab</tspan></text>
+             sodipodi:role="line">Quantum Science with Ultracold Atoms</tspan></text>
+        <g
+           id="g5160"
+           transform="translate(-0.09449405,-3.1372024)">
+          <text
+             id="text3715"
+             y="13.500695"
+             x="17.73167"
+             style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f2c500;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.99444485px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold';fill:#f2c500;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:0"
+               y="13.500695"
+               x="17.73167"
+               id="tspan3713"
+               sodipodi:role="line">Fujiwara</tspan></text>
+          <text
+             id="text4624"
+             y="13.500695"
+             x="68.753166"
+             style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             xml:space="preserve"><tspan
+               style="font-size:11.99444485px;stroke-width:0.26458332"
+               y="13.500695"
+               x="68.753166"
+               id="tspan4622"
+               sodipodi:role="line">Lab</tspan></text>
+        </g>
         <g
            id="g4733"
-           transform="matrix(1.0415618,0,0,1.0415618,-100.28503,12.865071)">
+           transform="matrix(1.0415618,0,0,1.0415618,-98.621934,12.135904)">
           <g
              id="g4742"
              transform="matrix(0.12047289,0,0,0.12047289,96.60349,-16.475707)">
@@ -197,6 +198,17 @@
           </g>
         </g>
       </g>
-    </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4800"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         transform="matrix(0.26458333,0,0,0.26458333,2.1998638,1.8633435)"><flowRegion
+           id="flowRegion4802"><rect
+             id="rect4804"
+             width="416.42856"
+             height="212.14285"
+             x="-20.714285"
+             y="-77.467987" /></flowRegion><flowPara
+           id="flowPara4806" /></flowRoot>    </g>
   </g>
 </svg>
