@@ -1,6 +1,14 @@
-/* === SITE CONTAINER === */
+/*
+  Site container
+*/
 html {
-  font-size: 12px;
+  font-size: 12px; /* Or a percentage like 62.5% for easier rem calculations (1rem = 10px) */
+}
+
+.person-divider {
+  border: none;
+  border-top: 1px solid #cccccc;  /* Light gray line */
+  margin: 2rem 0;
 }
 
 .container {
@@ -11,10 +19,12 @@ html {
 
 .content-container {
   margin-bottom: 4rem;
-  font-family: $sans-serif-font-family;
-  font-size: 1rem;
-  position: relative;
+    font-family: $sans-serif-font-family;
+	  font-size: 1rem; /* or whatever size you prefer */
+	position: relative;
 }
+
+/*48em*/
 
 @media (max-width: $container-responsive-width) {
   .container {
@@ -22,106 +32,314 @@ html {
   }
 }
 
-/* === HEADER2 TOP CONTAINER === */
-.header2-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
+
+/*
+  Menu
+*/
+
+.menu {
+  padding-top: 0.2rem;
+  display: block;
+  color : $lehigh-brown-80;
+  float: left;
 }
 
-.header2-left-group {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
+.menu-content {
+    color : $lehigh-brown-80;
+	float: left;
 }
 
-.lab-logo {
-  height: 60px;
+.menu-content a {
+  color : $lehigh-brown-80;
+  font-size: 1rem;
+  padding-right: 10px;
 }
 
 .social-icons {
+  float: right;
+  color : $lehigh-brown-80;
+
+}
+
+.social-icons a {
+  color: $lehigh-brown-80;
+  font-size: 1rem;
+}
+
+@media (max-width: $elements-responsive-width) {
+  .social-icons {
+    float: left;
+    padding-top: 0px;
+  }
+  .menu-content {
+    margin-bottom: 5px;
+  }
+}
+
+/*
+  Footer
+*/
+
+.footer {
+  color: $light-gray-color;
+  text-align: center;
+  margin: 2rem;
+}
+
+.footer a {
+  color: $light-gray-color;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: $dark-gray-color;
+}
+
+.footer-description {
+  display: block;
+  margin-top:3px;
+  margin-bottom: 1rem;
+  color: $light-gray-color;
+  font-family: $sans-serif-font-family;
+  font-size:0.8rem;
+}
+
+
+/*
+  Header
+*/
+.header {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  font-family: $sans-serif-font-family;
+}
+
+.header-top {
   display: flex;
-  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lab-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: $dark-gray-color;
+}
+
+.lab-subtitle {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  color: $light-gray-color;
+}
+
+.lehigh-logo {
+  height: 3rem; /* Adjust this as needed to match title + subtitle visually */
+  object-fit: contain;
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* === Banner Styling === */
+
+.banner-container {
+  position: relative;
+  width: 100%;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Text block (title + subtitle) */
+.banner-text-block {
+  position: absolute;
+  top: 1.0rem;
+  left: 0.5rem;
+  background: rgba(0, 0, 0, 0); /* semi-transparent black overlay */
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  max-width: 60%;
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: gold;
+  text-decoration: none;
+  display: block;
+  font-family: $sans-serif-font-family;
+}
+
+.banner-subtitle {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  color: white;
+  font-family: $sans-serif-font-family;
+}
+
+/* Lehigh logo (top-right) */
+.banner-logo {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  height: 4rem;
+  object-fit: contain;
+  background: rgba(0, 0, 0, 0); /* semi-transparent black overlay */
+  padding: .5rem .5rem;
+  border-radius: 0.5rem;   
+}
+
+/* Navigation links (bottom center) */
+.banner-nav-links {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 2rem;
+  background: rgba(0, 0, 0, 0); /* semi-transparent black overlay */
+
+}
+
+.banner-link {
+  font-size: 1.2rem;
+  color: $lehigh-brown-60;
+  font-weight: normal;
+  text-shadow: 0 0 6px rgba(0,0,0,0.5);
+  font-family: $sans-serif-font-family;
+}
+
+.banner-link:hover {
+  text-decoration: underline;
+}
+
+/* Main content container (content-container already works for layout) */
+.content-with-toc-container {
+  flex: 1; /* Takes up remaining space */
+  padding-right: 0; /* Default state without TOC */
+}
+
+/* TOC container */
+.toc-container {
+  position: absolute; /* Fix TOC inside the content-container */
+  top: 0; /* Align it to the top */
+  right: 0; /* Align it to the right */
+  width: 220px; /* Fixed width for TOC */
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  z-index: 10; /* Keeps the TOC above content */
+  max-height: calc(100vh - 20px); /* Ensures TOC fits within the container */
+  overflow-y: auto; /* Allows TOC to scroll if needed */
+}
+
+/* HEADER2 CONTAINER (Top Row: Lab Logo + Social Icons + Lehigh Logo) */
+.header2-container {
+  display: flex;
+  justify-content: space-between; /* Pushes left-group and right logo apart */
+  align-items: flex-start; /* Top-align both groups */
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Group: Lab Logo + Social Icons (INLINE) */
+.header2-left-group {
+  display: flex;
+  align-items: flex-start; /* Align lab logo & icons top-aligned */
+  gap: 0.5rem; /* Adjustable horizontal gap between logo and first social icon */
+}
+
+/* Lab Logo Size */
+.lab-logo {
+  height: 60px; /* Adjust lab logo height */
+}
+
+/* Social Icons Styling */
+.social-icons {
+  display: flex;
+  gap: 0.5rem; /* Gap between individual icons */
 }
 
 .social-svg {
-  height: 15px;
+  height: 15px; /* Adjust social icon size */
   width: auto;
   display: inline-block;
 }
 
+/* Right-side Lehigh Logo */
 .header2-right .lehigh-logo {
-  height: 60px;
+  height: 60px; /* Adjust Lehigh Logo height */
 }
 
-/* === MENU BAR === */
+/* Menu Bar */
 .menu-social-bar {
-  width: 100%;
   display: flex;
-  justify-content: center;
-  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
 }
 
 .menu-links {
   display: flex;
-  width: auto; /* Change to 100% for full-width bar */
-  justify-content: center;
-  align-items: stretch;
-  background-color: $lehigh-brown-20;
-  position: relative;
-  gap: 0;
-
-  a,
-  .dropdown-label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 1.5rem;
-    font-family: $sans-serif-font-family;
-    font-size: 1.75rem;
+  gap: 2rem;
+  font-family: $sans-serif-font-family;
+  font-size: 2rem;
+  a {
     color: $lehigh-brown-80;
-    height: 3rem;
     text-decoration: none;
-    border-left: 1px solid transparent;
-
-    &.active {
-      background-color: $lehigh-brown-60 !important;
-      color: $lehigh-gold !important;
+    &:hover {
+      text-decoration: underline;
     }
   }
-
-  a:first-child,
-  .dropdown-label:first-child {
-    border-left: none;
-  }
 }
 
-.menu-social-bar::before,
-.menu-social-bar::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 4px; /* Adjustable */
-  background-color: black; /* Adjustable */
+/* Active Menu Highlight */
+.menu-links a.active,
+.menu-links .dropdown-label.active {
+  background-color: $lehigh-brown-80 !important; /* Use your SCSS variable for Lehigh Brown 60 */
+  color: $lehigh-gold !important; /* Use your SCSS variable for Lehigh Gold */
+  padding: 0.25rem 0.5rem; /* Optional: gives it a button-like feel */
+  border-radius: 4px; /* Optional: slight rounding */
 }
 
-.menu-social-bar::before {
-  top: 0;
+/* Ensure 'Resources' stays highlighted when its submenu is active */
+.menu-links a.active {
+  background-color: $lehigh-brown-80;
+  color: $lehigh-gold;
 }
 
-.menu-social-bar::after {
-  bottom: 0;
-}
-
+/* Divider */
 .header-divider {
   border-bottom: 4px solid black;
   margin: 0;
   margin-bottom: 0.5rem;
 }
 
-/* === DROPDOWN MENU === */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -130,12 +348,12 @@ html {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 100%; /* Position below the parent */
   left: 0;
   background-color: white;
   min-width: 160px;
   box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-  z-index: 9999;
+  z-index: 99999;
   flex-direction: column;
 }
 
@@ -151,32 +369,8 @@ html {
   background-color: #f1f1f1;
 }
 
+/* Show submenu on hover */
 .dropdown:hover .dropdown-content {
   display: flex;
 }
 
-/* === FOOTER === */
-.footer {
-  color: $light-gray-color;
-  text-align: center;
-  margin: 2rem;
-
-  a {
-    color: $light-gray-color;
-    padding: 10px;
-    text-decoration: none;
-
-    &:hover {
-      color: $dark-gray-color;
-    }
-  }
-
-  .footer-description {
-    display: block;
-    margin-top: 3px;
-    margin-bottom: 1rem;
-    color: $light-gray-color;
-    font-family: $sans-serif-font-family;
-    font-size: 0.8rem;
-  }
-}
