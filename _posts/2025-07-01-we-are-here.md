@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "We are here!"
-categories: journal
-images: Admissions-VirtualTour-Hero.jpg
+images:
+  - { filename: fujiwara_1.jpg, caption: Blah}
 ---
 
 <div class="news-post">
