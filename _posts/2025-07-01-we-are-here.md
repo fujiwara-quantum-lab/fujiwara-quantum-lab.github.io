@@ -6,6 +6,10 @@ categories: journal
 image: Admissions-VirtualTour-Hero.jpg
 ---
 
+## {{ page.title }}
+
+### {{ page.date }}
+
 Cora is getting situated at Lehigh, and research activities will begin soon! Lab renovations are underway and 
 a temporary lab space has been acquired. 
 
