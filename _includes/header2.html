@@ -27,28 +27,6 @@
 
   </div>
 
-  <!-- Menu Bar Below -->
-  <!--
-  <div class="menu-social-bar">
-<div class="menu-links">
-  {% for item in site.data.settings.menu %}
-    {% if item.name == "resources" %}
-      <div class="dropdown">
-  <span class="dropdown-label {% if page.url contains '/resources' %}active{% endif %}">resources</span>
-  <div class="dropdown-content">
-    <a href="{{ site.github.url }}/code_of_conduct/">code of conduct</a>
-    <a href="{{ site.github.url }}/teaching/">teaching</a>
-    <a href="{{ site.github.url }}/public_data/">public data</a>
-  </div>
-</div>
-    {% else %}
-      <a href="{{ site.github.url }}/{{ item.url }}" 
-         class="{% if page.url == item.url %}active{% endif %}">{{ item.name }}</a>
-    {% endif %}
-  {% endfor %}
-</div>
-  </div>
--->
 
 <div class="topnav">
 	{% for item in site.data.settings.menu %}

@@ -293,87 +293,6 @@ html {
   height: 60px; /* Adjust Lehigh Logo height */
 }
 
-/* Menu Bar */
-.menu-social-bar {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-
-}
-
-.menu-links {
-  display: flex;
-  gap: 2rem;
-  font-family: $sans-serif-font-family;
-  font-size: 2rem;
-  a {
-    color: $lehigh-brown-80;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
-/* Active Menu Highlight */
-.menu-links a.active,
-.menu-links .dropdown-label.active {
-  background-color: $lehigh-brown-80 !important; /* Use your SCSS variable for Lehigh Brown 60 */
-  color: $lehigh-gold !important; /* Use your SCSS variable for Lehigh Gold */
-  padding: 0.25rem 0.5rem; /* Optional: gives it a button-like feel */
-  border-radius: 4px; /* Optional: slight rounding */
-}
-
-/* Ensure 'Resources' stays highlighted when its submenu is active */
-.menu-links a.active {
-  background-color: $lehigh-brown-80;
-  color: $lehigh-gold;
-}
-
-/* Divider */
-.header-divider {
-  border-bottom: 4px solid black;
-  margin: 0;
-  margin-bottom: 0.5rem;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%; /* Position below the parent */
-  left: 0;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-  z-index: 99999;
-  flex-direction: column;
-}
-
-.dropdown-content a {
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  display: block;
-  color: $lehigh-brown-80;
-  background-color: white;
-}
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-
-/* Show submenu on hover */
-.dropdown:hover .dropdown-content {
-  display: flex;
-}
-
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -383,8 +302,8 @@ html {
   border-bottom: 1px solid #cccccc; 
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
+.topnav a,
+.dropdown-label {
   float: left;
   color: $lehigh-brown-80;
   text-align: center;
@@ -392,21 +311,20 @@ html {
   text-decoration: none;
   font-size: 18px;
   font-family: $sans-serif-font-family;
-
+  display: inline-block;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
+.topnav a:hover,
+.dropdown-label:hover {
   background-color: #F5A9B8;
   color: white;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
+.topnav a.active,
+.dropdown-label.active {
   background-color: $lehigh-brown-80;
   color: $lehigh-gold;
 }
-
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -414,26 +332,5 @@ html {
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
 
-/* Show submenu on hover */
-.dropdown-label:hover .dropdown-content {
-  display: flex;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: $lehigh-brown-80;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
 
