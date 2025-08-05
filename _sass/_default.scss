@@ -300,6 +300,8 @@ html {
   overflow: hidden;
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc; 
+    position: relative; /* Key to stacking context */
+  z-index: 10; /* Make sure nav stays above other elements */
 }
 
 .topnav a,
@@ -330,6 +332,7 @@ html {
 .dropdown {
   position: relative;
   display: inline-block;
+  vertical-align: middle; /* Helps with alignment */
 }
 
 
