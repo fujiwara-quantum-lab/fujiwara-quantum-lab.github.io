@@ -19,4 +19,20 @@ permalink: /
    text=carousel_text
 %}
 
+<section class="recent-news-section">
+  <h2>Recent News</h2>
+  <div class="news-grid">
+    {% assign recent_posts = site.posts | limit: 3 %}
+    {% for post in recent_posts %}
+      <article class="news-card">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        <a href="{{ post.url }}" class="read-more">Read More →</a>
+      </article>
+    {% endfor %}
+  </div>
+  <div class="more-news-button">
+    <a href="{{ site.github.url }}/news/">More News</a>
+  </div>
+</section>
 
