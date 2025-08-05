@@ -437,3 +437,27 @@ html {
     flex-direction: column;
   }
 }
+
+.news-post.side-carousel .post-carousel {
+  width: 100%;
+  max-width: 500px; /* Adjust as needed */
+  aspect-ratio: 4 / 3; /* Or 16/9 depending on your image type */
+}
+
+.news-post.side-carousel .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.news-post.side-carousel .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.news-post.side-carousel .swiper-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
