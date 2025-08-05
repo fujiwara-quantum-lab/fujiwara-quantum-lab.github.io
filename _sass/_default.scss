@@ -369,3 +369,45 @@ html {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.news-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.news-container {
+  width: 100%;
+}
+
+.news-post {
+  padding: 2rem 0;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.post-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-images img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.post-divider {
+  border: none;
+  border-top: 1px solid #cccccc;
+  margin: 2rem 0;
+}
