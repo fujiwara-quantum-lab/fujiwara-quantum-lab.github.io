@@ -6,9 +6,22 @@ categories: journal
 image: Admissions-VirtualTour-Hero.jpg
 ---
 
-## {{ page.title }}
+ <div class="news-post">
+      <h2 class="post-title">{{ page.title }}</h2>
+      <div class="post-meta">{{ page.date | date: "%B %d, %Y" }}</div>
+      {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
+      {% endif %}
+      {% if page.images %}
+        <div class="post-images">
+          {% for image in page.images %}
+            <img src="{{ image }}" alt="{{ page.title }} image">
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
 
-### {{ page.date }}
+	
 
 Cora is getting situated at Lehigh, and research activities will begin soon! Lab renovations are underway and 
 a temporary lab space has been acquired. 
