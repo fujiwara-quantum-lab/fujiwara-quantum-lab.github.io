@@ -2,7 +2,9 @@
 layout: default
 title: "We are here!"
 images:
-  - { filename: "/assets/images/2025-08-05 Empty Lab.jpg", caption: "Blah"}
+  - { filename: "/assets/images/2025-08-05 Empty Lab.jpg", caption: "Lab before renovation"}
+  - { filename: "/assets/images/2025-08-05 Lab Door.jpg", caption: "Door the lab"}
+
 ---
 
 <div class="news-post">
