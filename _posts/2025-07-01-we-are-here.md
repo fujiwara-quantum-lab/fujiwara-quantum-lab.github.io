@@ -1,5 +1,5 @@
 ---
-layout: post-index
+layout: default
 title: "we are here!"
 author: "Cora Fujiwara"
 categories: journal
