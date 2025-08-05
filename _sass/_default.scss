@@ -355,12 +355,13 @@ html {
   background-color: white;
     width: 100%; /* <-- ADD THIS */
   box-sizing: border-box; /* <-- Ensures padding is included within width */
+	text-align: left;
+
 }
 
 .dropdown-content a:hover {
   background-color: #F5A9B8;
     color: white;
-
 }
 
 .dropdown:hover .dropdown-content {
