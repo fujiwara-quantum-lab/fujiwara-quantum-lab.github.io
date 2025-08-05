@@ -53,6 +53,8 @@
 <div class="topnav">
 	{% for item in site.data.settings.menu %}
 		{% if item.name == "Resources" %}
+		<div class="dropdown">
+
 		  <a href="#" class="dropdown-label {% if page.url contains '/resources' %}active{% endif %}">Resources</a>
 			
 			<div class="dropdown-content">
@@ -60,6 +62,8 @@
 				<a href="{{ site.github.url }}/teaching/">Teaching</a>
 				<a href="{{ site.github.url }}/public_data/">Public Data</a>
 			</div>
+	  </div>
+
 		{% else %}
 			<a href="{{ site.github.url }}/{{ item.url }}" 
 				class="{% if page.url == item.url %}active{% endif %}">{{ item.name }}</a>
