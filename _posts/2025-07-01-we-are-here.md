@@ -2,7 +2,7 @@
 layout: default
 title: "We are here!"
 images:
-  - { filename: fujiwara_1.jpg, caption: Blah}
+  - { filename: "/assets/images/2025-08-05 Empty Lab.jpg", caption: "Blah"}
 ---
 
 <div class="news-post">
@@ -21,7 +21,7 @@ images:
 </div>
 
 
-
+src="/assets/img/people/{{ img.filename }}"
 Cora is getting situated at Lehigh, and research activities will begin soon! Lab renovations are underway and 
 a temporary lab space has been acquired. 
 
