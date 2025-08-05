@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "we are here!"
+title: "We are here!"
 author: "Cora Fujiwara"
 categories: journal
 image: Admissions-VirtualTour-Hero.jpg
