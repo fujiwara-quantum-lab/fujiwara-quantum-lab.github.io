@@ -353,6 +353,8 @@ html {
   display: block;
   color: $lehigh-brown-80;
   background-color: white;
+    width: 100%; /* <-- ADD THIS */
+  box-sizing: border-box; /* <-- Ensures padding is included within width */
 }
 
 .dropdown-content a:hover {
