@@ -1,0 +1,26 @@
+<div class="news-post side-carousel">
+  <div class="post-text">
+    <h2 class="post-title">{{ post.title }}</h2>
+    <div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
+    <div class="post-content">
+      {{ post.content }}
+    </div>
+  </div>
+
+  <div class="post-carousel">
+    <div class="swiper news-swiper-{{ forloop.index }}">
+      <div class="swiper-wrapper">
+        {% for image in post.images %}
+          <div class="swiper-slide">
+            <img src="{{ image.filename | relative_url }}" alt="{{ post.title }} image">
+            {% if image.caption %}
+              <div class="caption">{{ image.caption }}</div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</div>

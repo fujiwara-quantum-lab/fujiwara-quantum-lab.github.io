@@ -411,3 +411,32 @@ html {
   border-top: 1px solid #cccccc;
   margin: 2rem 0;
 }
+
+.news-post.side-carousel {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.news-post .post-text {
+  flex: 1 1 50%;
+}
+
+.news-post .post-carousel {
+  flex: 1 1 50%;
+}
+
+.post-carousel img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* or cover */
+}
+
+/* Mobile Stack */
+@media (max-width: 768px) {
+  .news-post.side-carousel {
+    flex-direction: column;
+  }
+}
+
