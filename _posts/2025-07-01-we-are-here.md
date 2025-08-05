@@ -14,11 +14,13 @@ images:
 	{% if page.images %}
 		<div class="post-images">
 		{% for image in page.images %}
-			<img src="{{ image }}" alt="{{ page.title }} image">
+			<img src="{{ image.filename }}" alt="{{ page.title }} image">
 		{% endfor %}
 			</div>
 	{% endif %}
 </div>
+
+
 
 Cora is getting situated at Lehigh, and research activities will begin soon! Lab renovations are underway and 
 a temporary lab space has been acquired. 
