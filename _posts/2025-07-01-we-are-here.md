@@ -3,7 +3,6 @@ layout: post
 title: "we are here!"
 author: "Cora Fujiwara"
 categories: journal
-tags: [documentation,sample]
 image: Admissions-VirtualTour-Hero.jpg
 ---
 
