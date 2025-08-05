@@ -5,19 +5,8 @@
   {% if post.description %}
     <p class="post-description">{{ post.description }}</p>
   {% endif %}
-
-  {% if post.images %}
-    <div class="post-images">
-    {% for image in post.images %}
-      <div class="post-image-block">
-        <img src="{{ image.filename | relative_url }}" alt="{{ post.title }} image">
-        {% if image.caption %}
-          <div class="caption">{{ image.caption }}</div>
-        {% endif %}
-      </div>
-    {% endfor %}
-    </div>
-  {% endif %}
+  
+  {{ post.content }}
 </div>
 
-{{ post.content }}
+

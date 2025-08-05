@@ -14,7 +14,7 @@ permalink: /news/
       {% when "text" %}
         {% include news/text.html post=post %}
       {% else %}
-        {% include news/text.html post=post %}
+        {% include news/dump.html post=post %}
     {% endcase %}
     <hr class="post-divider">
   {% endfor %}
