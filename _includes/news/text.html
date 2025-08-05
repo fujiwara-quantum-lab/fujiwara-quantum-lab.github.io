@@ -1,11 +1,9 @@
 <div class="news-post">
   <h2 class="post-title">{{ post.title }}</h2>
   <div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
-
   {% if post.description %}
     <p class="post-description">{{ post.description }}</p>
-  {% endif %}
-  
+  {% endif %} 
   {{ post.content }}
 </div>
 

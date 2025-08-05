@@ -6,7 +6,6 @@ images:
   - { filename: "/assets/images/2025-08-05 Lab Door.jpg", caption: "Door to the lab" }
 format: "side_carousel"
 ---
-
 Cora is getting situated at Lehigh, and research activities will begin soon! Lab renovations are underway and 
 a temporary lab space has been acquired.
 
