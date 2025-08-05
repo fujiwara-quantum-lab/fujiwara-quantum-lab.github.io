@@ -22,6 +22,8 @@ permalink: /news/
         </div>
       {% endif %}
     </div>
+	
+	{{ post.content }}
     <hr class="post-divider">
   {% endfor %}
 </div>
