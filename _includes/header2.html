@@ -54,12 +54,12 @@
 	{% for item in site.data.settings.menu %}
 		{% if item.name == "Resources" %}
 			<div class="dropdown">
-				<span class="dropdown-label {% if page.url contains '/resources' %}active{% endif %}">resources</span>
-					<div class="dropdown-content">
-						<a href="{{ site.github.url }}/code_of_conduct/">code of conduct</a>
-						<a href="{{ site.github.url }}/teaching/">teaching</a>
-						<a href="{{ site.github.url }}/public_data/">public data</a>
-					</div>
+				<button class="dropdown-content"> Resources</button>
+				<div class="dropdown-content">
+					<a href="{{ site.github.url }}/code_of_conduct/">Code of Conduct</a>
+					<a href="{{ site.github.url }}/teaching/">Teaching</a>
+					<a href="{{ site.github.url }}/public_data/">Public Data</a>
+				</div>
 			</div>
 		{% else %}
 			<a href="{{ site.github.url }}/{{ item.url }}" 
