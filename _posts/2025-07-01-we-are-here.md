@@ -4,8 +4,10 @@ title: "We are here!"
 images:
   - { filename: "/assets/images/2025-08-05 Empty Lab.jpg", caption: "Lab before renovation"}
   - { filename: "/assets/images/2025-08-05 Lab Door.jpg", caption: "Door to the lab" }
+format: "text"
 ---
 
+<!--
 <div class="news-post">
   <h2 class="post-title">{{ page.title }}</h2>
   <div class="post-meta">{{ page.date | date: "%B %d, %Y" }}</div>
@@ -27,6 +29,7 @@ images:
     </div>
   {% endif %}
 </div>
+-->
 
 <p>
 Cora is getting situated at Lehigh, and research activities will begin soon! Lab renovations are underway and 
