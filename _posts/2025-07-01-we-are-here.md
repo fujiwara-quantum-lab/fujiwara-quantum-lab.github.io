@@ -4,7 +4,7 @@ title: "We are here!"
 images:
   - { filename: "/assets/images/2025-08-05 Empty Lab.jpg", caption: "Lab before renovation"}
   - { filename: "/assets/images/2025-08-05 Lab Door.jpg", caption: "Door to the lab" }
-format: "dump"
+format: "side_carousel"
 ---
 
 Cora is getting situated at Lehigh, and research activities will begin soon! Lab renovations are underway and 
