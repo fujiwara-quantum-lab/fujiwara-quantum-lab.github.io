@@ -1,6 +1,12 @@
-/*
-  Site container
-*/
+
+// Site container width
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1080px;
+}
+
+// Default font size
 html {
   font-size: 12px; /* Or a percentage like 62.5% for easier rem calculations (1rem = 10px) */
 }
@@ -9,12 +15,6 @@ html {
   border: none;
   border-top: 1px solid #cccccc;  /* Light gray line */
   margin: 2rem 0;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1080px;
 }
 
 .content-container {
