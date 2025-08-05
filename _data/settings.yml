@@ -15,10 +15,10 @@ menu:
   - {name: Home,     url: /}
   - {name: Research, url: /research/}
   - {name: People, url: /people/}
-  - {name: Publications,url: /publications/}
   - {name: News,      url: /news/}
   - {name: Openings,  url: /openings/}
   - {name: Gallery,  url: /gallery/}
+  - {name: Publications,url: /publications/}
   - {name: Contact Us, url: /contact-us/}
   - {name: Resources,  url: /resources/}
 
