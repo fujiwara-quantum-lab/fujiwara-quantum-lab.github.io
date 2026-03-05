@@ -34,6 +34,11 @@ author:              'Cora Fujiwara'
 collections:
   people:
     output: false
+# site.pages is all .md files 
+# _data site.posts are blog post and must be formatted as _posts/2026-03-05-title.md
+# _layouts 
+# _includes resuable html snippets
+# not sure about the otherw
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
