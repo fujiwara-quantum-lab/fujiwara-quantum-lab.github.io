@@ -3,7 +3,8 @@ layout: default
 title: people
 permalink: /people/
 ---
-blah
+
+
 # People
 
 {% for entry in site.data.people %}
