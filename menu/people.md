@@ -3,6 +3,9 @@ layout: default
 title: people
 permalink: /people/
 ---
+<!--
+PEOPLE PAGE IS AUTO-GENERATED
+
 # People
 
 {% for entry in site.data.people %}
