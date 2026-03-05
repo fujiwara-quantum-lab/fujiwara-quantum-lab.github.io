@@ -1,6 +1,6 @@
 ---
 id: cora-fujiwara
-name: Cora Fujiwara
+myname: Cora Fujiwara
 role: Assistant Professor
 education:
   - Ph.D. in Physics, University of California Santa Barbara, 2019.
