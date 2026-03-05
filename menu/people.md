@@ -3,13 +3,13 @@ layout: default
 title: people
 permalink: /people/
 ---
-<!--
-PEOPLE PAGE IS AUTO-GENERATED
-
 # People
 
+<!--{% assign person = site.pages | where: "path", "people/" | where: "id", entry.id | first %}-->
+
+
 {% for entry in site.data.people %}
-{% assign person = site.pages | where: "path", "people/" | where: "id", entry.id | first %}
+  {% assign person = site.pages | where: "id", entry.id | first %}
   {% include member_card.html person=person %}
 {% endfor %}
 
