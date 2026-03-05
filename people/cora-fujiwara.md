@@ -1,5 +1,5 @@
 ---
-id: fujiwara
+id: cora-fujiwara
 myname: Cora Fujiwara
 role: Assistant Professor
 education:

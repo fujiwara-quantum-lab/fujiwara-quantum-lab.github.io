@@ -1,5 +1,5 @@
 ---
-id: stuhlman
+id: jack-stuhlman
 myname: Jack Stuhlman
 role: Undergraduate Student Researcher
 email: jasq28 \[at] lehigh [dot] edu

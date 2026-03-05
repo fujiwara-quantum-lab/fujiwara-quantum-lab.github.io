@@ -1,5 +1,5 @@
 ---
-id: cruz
+id: nikolas-cruz
 myname: Nikolas Cruz
 role: Undergraduate Student Researcher
 email: nbc226 \[at] lehigh [dot] edu

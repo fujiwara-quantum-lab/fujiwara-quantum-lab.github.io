@@ -1,5 +1,5 @@
 ---
-id: yablonsky
+id: alivia-yablonsky
 myname: Alivia Yablonsky
 role: Undergraduate Student Researcher
 email: aly228 \[at] lehigh [dot] edu
