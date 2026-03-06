@@ -15,8 +15,8 @@ Please direct all inquiries to the group PI - Cora Fujiwara.
     <p>
       Our lab is located in Lewis Lab at Lehigh University, nestled in South Bethlehem, Pennsylvania. We are within walking distance of the vibrant South Side historic district, restaurants, and arts venues.
 	  
-	  Our facilities are located on the first floor of Lewis Lab ###, and the main office for the department is XXX.  Note that the building and all rooms require key access outside
-	  of normal business hours.
+	  Our facilities are located on the first floor of Lewis Lab 512 and the main office for the department is Lewis Lab 214.  Note that the building and all rooms require key access outside
+	  of normal business hours. 	 
 	  
 	  Lehigh University may be accessed locally via the Lehigh Valley International Airport (ABE) or with a reasonable car ride from nearby metropolitan aiports such as Philadelphia International Airport, Newark International Airport, and John F. Kennedy Airport.
     </p>
