@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 
 # Publications
-* indicates equal contribution.
+\* indicates equal contribution.
 <div class="pub-list">
 
 {% assign papers = site.data.publications | where: "type", "paper" | sort: "year" | reverse %}
