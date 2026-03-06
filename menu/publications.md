@@ -50,73 +50,29 @@ permalink: /publications/
 {% endfor %}
 
 </div>
-
 # Theses
 
-## PhD theses
-
 <div class="thesis-list">
 
-{% assign phd = site.data.publications | where: "type", "phd_thesis" | sort: "year" | reverse %}
+{% assign theses = site.data.publications | where: "type", "thesis" | sort: "year" | reverse %}
 
-{% for item in phd %}
+{% for item in theses %}
 <div class="thesis-entry">
-  {{ item.authors }}. <em>{{ item.title }}</em>, {{ item.institution }} ({{ item.year }})
-  {% if item.pdf %}
-    <a href="{{ item.pdf }}" class="link-blue">[pdf]</a>
-  {% endif %}
-  {% if item.doi %}
-    <a href="https://doi.org/{{ item.doi }}" class="link-blue">[doi]</a>
-  {% endif %}
-  {% if item.arxiv %}
-    <a href="https://arxiv.org/abs/{{ item.arxiv }}" class="link-blue">[arXiv]</a>
-  {% endif %}
-</div>
-{% endfor %}
 
-</div>
+{{ item.authors }}. <em>{{ item.title }}</em>. {{ item.degree }} Thesis, {{ item.institution }} ({{ item.year }})
 
-## Master's theses
+{% if item.pdf %}
+<a href="{{ item.pdf }}" class="link-blue">[pdf]</a>
+{% endif %}
 
-<div class="thesis-list">
+{% if item.doi %}
+<a href="https://doi.org/{{ item.doi }}" class="link-blue">[doi: {{ item.doi }}]</a>
+{% endif %}
 
-{% assign masters = site.data.publications | where: "type", "masters_thesis" | sort: "year" | reverse %}
+{% if item.arxiv %}
+<a href="https://arxiv.org/abs/{{ item.arxiv }}" class="link-blue">[arXiv: {{ item.arxiv }}]</a>
+{% endif %}
 
-{% for item in masters %}
-<div class="thesis-entry">
-  {{ item.authors }}. <em>{{ item.title }}</em>, {{ item.institution }} ({{ item.year }})
-  {% if item.pdf %}
-    <a href="{{ item.pdf }}" class="link-blue">[pdf]</a>
-  {% endif %}
-  {% if item.doi %}
-    <a href="https://doi.org/{{ item.doi }}" class="link-blue">[doi]</a>
-  {% endif %}
-  {% if item.arxiv %}
-    <a href="https://arxiv.org/abs/{{ item.arxiv }}" class="link-blue">[arXiv]</a>
-  {% endif %}
-</div>
-{% endfor %}
-
-</div>
-
-## Bachelor's theses
-
-<div class="thesis-list">
-
-{% assign bachelors = site.data.publications | where: "type", "bachelors_thesis" | sort: "year" | reverse %}
-
-{% for item in bachelors %}
-<div class="thesis-entry">
-  {{ item.authors }}. <em>{{ item.title }}</em>, {{ item.institution }} ({{ item.year }})
-  {% if item.pdf %}
-    <a href="{{ item.pdf }}" class="link-blue">[pdf]</a>
-  {% endif %}
-  {% if item.doi %}
-    <a href="https://doi.org/{{ item.doi }}" class="link-blue">[doi]</a>
-  {% endif %}
-  {% if item.arxiv %}
-    <a href="https://arxiv.org/abs/{{ item.arxiv }}" class="link-blue">[arXiv]</a>
-  {% endif %}
 </div>
 {% endfor %}
 

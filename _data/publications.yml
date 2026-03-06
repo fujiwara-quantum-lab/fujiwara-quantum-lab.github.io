@@ -11,28 +11,30 @@
   arxiv: "1407.6391"
   notes: ""
 
-- type: phd_thesis
+- type: thesis
   authors: "C. Fujiwara"
-  title: "Dynamics of Ultracold Lithium in Modulated Optical Lattices"
+  title: Dynamics of Ultracold Lithium in Modulated Optical Lattices
+  degree: "Ph.D."
   institution: "University of California, Santa Barbara"
   year: 2019
   pdf: "https://web.physics.ucsb.edu/~weld/publications/fujiwaraThesis.pdf"
 
-- type: masters_thesis
+
+- type: thesis
   authors: "A. Student"
-  title: "Optical lattice design for quantum gas experiments"
+  title: Optical lattice design for quantum gas experiments
+  degree: "M.S."
   institution: "Lehigh University"
   year: 2028
-  link_url: "https://example.com"
-  link_text: "PDF"
+  pdf: "link"
 
-- type: bachelors_thesis
+- type: thesis
   authors: "B. Student"
-  title: "A study of laser cooling techniques"
+  title: Laser cooling techniques
+  degree: "B.S."
   institution: "Lehigh University"
   year: 2027
-  link_url: "https://example.com"
-  link_text: "PDF"
+  pdf: "link"
 
 - type: report
   authors: "C. Fujiwara Lab"
