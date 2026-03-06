@@ -3,7 +3,6 @@ layout: default
 title: News
 permalink: /news/
 ---
-
 <h1 class="news-title">News</h1>
 <div class="news-container">
   {% for post in site.posts %}
@@ -15,7 +14,6 @@ permalink: /news/
       {% else %}
         {% include news/dump.html post=post %}
     {% endcase %}
-    <!-- <hr class="post-divider"> -->
-	hi
+    <hr class="post-divider">
   {% endfor %}
 </div>
