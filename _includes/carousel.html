@@ -57,27 +57,23 @@
   }
 
   .swiper-button-next,
-  .swiper-button-prev {
-    color: #222;
-    width: 42px;
-    height: 42px;
-    margin-top: -21px;
-    background: rgba(255, 255, 255, 0.85);
-    border-radius: 50%;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.15);
-    z-index: 10;
-  }
+.swiper-button-prev {
+  color: #1a73e8;          /* your blue */
+  background: transparent; /* remove white circle */
+  width: 40px;
+  height: 40px;
+}
 
-  .swiper-button-next::after,
-  .swiper-button-prev::after {
-    font-size: 18px;
-    font-weight: 700;
-  }
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 22px;
+  font-weight: 700;
+}
 
-  .swiper-button-next:hover,
-  .swiper-button-prev:hover {
-    background: rgba(255, 255, 255, 0.98);
-  }
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #1558b0;          /* darker blue on hover */
+}
 
   .swiper-pagination {
     bottom: 0 !important;
