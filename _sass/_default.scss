@@ -80,6 +80,36 @@ html {
   color: #1a73e8;
 }
 
+.openings-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+
+.openings-text {
+  flex: 1 1 320px;
+  min-width: 250px;
+}
+
+.openings-image {
+  flex: 1 1 320px;
+  min-width: 250px;
+  text-align: center;
+}
+
+.openings-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.openings-image p {
+  margin-top: 0.5rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
 /*
   Footer
 */

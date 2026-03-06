@@ -6,25 +6,30 @@ permalink: /openings/
 
 For all openings, please contact C. Fujiwara for details.
 
-<div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem; align-items: flex-start;">
-  <div style="flex: 1; min-width: 250px;">
-    <p>
-   <strong><ins>We currently have funding for a postdoctoral fellow in the group.</ins></strong>  The desired fellow will play an integral role in the design and contruction of the experimental apparatus and will also take on major leadership roles in mentoring undergraduate and graduate students.  Interested candidates should contact Cora, and we can arrange to have you give a research seminar.
-    </p>
-    <p>
-<strong><ins>We have multiple openings for graduate (both PhD and Masters) students who want to get invovled in the group.</ins></strong> Please contact Cora for specific projects available and to see if the group would be a good fit for you.  Please see the departmental admissions page for information about applying to the graduate program at Lehigh University.
-    </p>
-	
-	<p>
-	<strong><ins>We have numerous opportunities for undergraduate students to get involved with research.</ins></strong>  Typical projects for undergraduates include teaching skills such as analog electronics, digital electronics, numerical techniques, optics, fluid dynamics, mechanical design, vaccuum design, and many more. Please contact Cora for an up to date list as projects can be tailored to your specific interests.  We are also proud members of the [**Sommer lab**](https://physics.cas.lehigh.edu/undergraduate/reu-program){: .link-blue target="_blank"} at Lehigh University. 
-	</p>
-  </div>
+<div class="openings-layout">
 
-  <div style="flex: 1; min-width: 250px;">
-<figure style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="/assets/img/adjust.jpg" alt="grad student adjusting optics" style="width: 100%; max-width: 100%; border-radius: 10px;">
-    <figcaption style="margin-top: 0.5rem; color: #555;">gradudate student adjusting optics (University of Toronto)</figcaption>
-  </figure>
-  
-  </div>
+<div class="openings-text">
+
+### Postdoctoral fellow
+
+**We currently have funding for a postdoctoral fellow in the group.** The desired fellow will play an integral role in the design and construction of the experimental apparatus and will also take on major leadership roles in mentoring undergraduate and graduate students. Interested candidates should contact Cora, and we can arrange to have you give a research seminar.
+
+### Graduate students
+
+**We have multiple openings for graduate students (both PhD and Master's) who want to get involved in the group.** Please contact Cora for specific projects available and to see if the group would be a good fit for you. Please see the departmental admissions page for information about applying to the graduate program at Lehigh University.
+
+### Undergraduate students
+
+**We have numerous opportunities for undergraduate students to get involved with research.** Typical projects for undergraduates include analog electronics, digital electronics, numerical techniques, optics, fluid dynamics, mechanical design, vacuum design, and more. Please contact Cora for an up-to-date list, as projects can be tailored to your specific interests. We are also proud members of the [**Physics REU Program**](https://physics.cas.lehigh.edu/undergraduate/reu-program){: .link-blue } at Lehigh University.
+
+</div>
+
+<div class="openings-image">
+
+![graduate student adjusting optics (University of Toronto)](/assets/img/adjust.jpg)
+
+*graduate student adjusting optics (University of Toronto)*
+
+</div>
+
 </div>
