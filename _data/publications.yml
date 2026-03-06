@@ -1,7 +1,7 @@
 # _data/publications.yml
 
 - type: paper
-  authors: "R. Senaratne, S. Rajagopal, Z. Geiger, **C. Fujiwara**, V. Lebedev, and D. M. Weld"
+  authors: "R. Senaratne, S. Rajagopal, Z. Geiger, <strong>C. Fujiwara</strong>, V. Lebedev, and D. M. Weld"
   title: "Effusive Atomic Oven Nozzle Design Using an Aligned Microcapillary Array"
   journal: "Review of Scientific Instruments"
   volume: "86"

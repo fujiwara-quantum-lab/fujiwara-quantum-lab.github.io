@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-## Publications
+# Publications
 
 <div class="pub-list">
 
@@ -51,9 +51,9 @@ permalink: /publications/
 
 </div>
 
-## Theses
+# Theses
 
-### PhD theses
+## PhD theses
 
 <div class="thesis-list">
 
@@ -76,7 +76,7 @@ permalink: /publications/
 
 </div>
 
-### Master's theses
+## Master's theses
 
 <div class="thesis-list">
 
@@ -99,7 +99,7 @@ permalink: /publications/
 
 </div>
 
-### Bachelor's theses
+## Bachelor's theses
 
 <div class="thesis-list">
 
@@ -122,7 +122,7 @@ permalink: /publications/
 
 </div>
 
-## Internal reports
+# Internal reports
 
 <div class="thesis-list">
 
