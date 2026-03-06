@@ -50,6 +50,7 @@
   pages: "041021"
   year: 2019
   doi: "10.1103/PhysRevX.9.041021"
+  arxiv: 1809.05554
 
 - type: paper
   authors: "<strong>C. J. Fujiwara</strong>*, K. Singh*, Z. A. Geiger, R. Senaratne, S. V. Rajagopal, M. Lipatov, and D. M. Weld"
@@ -59,6 +60,7 @@
   pages: "010402"
   year: 2019
   doi: "10.1103/PhysRevLett.122.010402"
+  arxiv: 1806.07858 
 
 - type: paper
   authors: "R. Senaratne, S. V. Rajagopal, T. Shimasaki, P. E. Dotti, K. M. Fujiwara, K. Singh, Z. A. Geiger, and D. M. Weld"
@@ -67,7 +69,8 @@
   volume: "9"
   pages: "2065"
   year: 2018
-  doi: "10.1038/s41467-018-04590-1"
+  doi: "10.1038/s41467-018-04556-3"
+  arxiv : 1711.02654
 
 - type: paper
   authors: "Z. A. Geiger*, K. M. Fujiwara*, K. Singh, R. Senaratne, S. V. Rajagopal, M. Lipatov, T. Shimasaki, R. Driben, V. V. Konotop, T. Meier, and D. M. Weld"
@@ -77,6 +80,7 @@
   pages: "213201"
   year: 2018
   doi: "10.1103/PhysRevLett.120.213201"
+  arxiv: 1803.02456
   notes: "Editor’s Choice; featured in APS Physics"
 
 - type: paper
@@ -86,7 +90,8 @@
   volume: "20"
   pages: "063027"
   year: 2018
-  doi: "10.1088/1367-2630/aac96b"
+  arxiv: 1712.09501
+  doi: "10.1088/1367-2630/aacb5a"
   notes: "Video abstract available"
 
 - type: paper
@@ -96,6 +101,7 @@
   volume: "529"
   pages: "1700008"
   year: 2017
+  arxiv: 1705.04309
   doi: "10.1002/andp.201700008"
 
 - type: paper
