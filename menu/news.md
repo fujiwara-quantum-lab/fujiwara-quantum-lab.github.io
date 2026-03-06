@@ -19,4 +19,3 @@ permalink: /news/
 	hi
   {% endfor %}
 </div>
-hi
