@@ -131,11 +131,13 @@
 # Reports
 # ========================
 
-- type: report
-  authors: "C. Fujiwara Lab"
-  title: "Internal apparatus design report"
-  institution: "Lehigh University"
-  year: 2026
-  link_url: "https://example.com"
-  link_text: "Restricted access"
-  notes: "Internal document"
+
+#- type: report
+#  authors: "C. Fujiwara Lab"
+#  title: "Internal apparatus design report"
+#  institution: "Lehigh University"
+#  year: 2026
+#  link_url: "https://example.com"
+#  link_text: "Restricted access"
+#  notes: "Internal document"
+ 
