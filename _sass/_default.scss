@@ -138,6 +138,50 @@ html {
   color: #555;
 }
 
+.pub-list {
+  margin-top: 1rem;
+}
+
+.pub-entry {
+  margin-bottom: 1.2rem;
+}
+
+.pub-authors,
+.pub-title,
+.pub-journal,
+.pub-links,
+.pub-note {
+  margin: 0.08rem 0;
+  line-height: 1.35;
+}
+
+.pub-authors {
+  font-weight: 500;
+}
+
+.pub-title {
+  font-style: normal;
+}
+
+.pub-journal {
+  color: #333;
+}
+
+.pub-links a {
+  color: #1a73e8;
+  text-decoration: none;
+  margin-right: 0.45rem;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
+  color: #1558b0;
+}
+
+.pub-note {
+  color: #555;
+}
+
 /*
   Footer
 */
