@@ -16,7 +16,7 @@ For all openings, please contact C. Fujiwara for details.
     </p>
 	
 	<p>
-	<strong><ins>We have numerous opportunities for undergraduate students to get involved with research.</ins></strong>  Typical projects for undergraduates include teaching skills such as analog electronics, digital electronics, numerical techniques, optics, fluid dynamics, mechanical design, vaccuum design, and many more. Please contact Cora for an up to date list as projects can be tailored to your specific interests.  We are also proud members of the [Physics REU program](https://physics.cas.lehigh.edu/undergraduate/reu-program){: .link-blue target="_blank"} at Lehigh University. 
+	<strong><ins>We have numerous opportunities for undergraduate students to get involved with research.</ins></strong>  Typical projects for undergraduates include teaching skills such as analog electronics, digital electronics, numerical techniques, optics, fluid dynamics, mechanical design, vaccuum design, and many more. Please contact Cora for an up to date list as projects can be tailored to your specific interests.  We are also proud members of the [**Sommer lab**](https://physics.cas.lehigh.edu/undergraduate/reu-program){: .link-blue target="_blank"} at Lehigh University. 
 	</p>
   </div>
 
