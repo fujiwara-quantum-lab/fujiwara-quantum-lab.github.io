@@ -1,7 +1,100 @@
 # _data/publications.yml
+# ========================
+# Journal Publications
+# ========================
 
 - type: paper
-  authors: "R. Senaratne, S. Rajagopal, Z. Geiger, <strong>C. Fujiwara</strong>, V. Lebedev, and D. M. Weld"
+  authors: "F. Corapi, R. T. Learn, B. Driesen, A. Lefebvre, X. Leyronas, F. Chevy, <strong>C. J. Fujiwara</strong>, and J. H. Thywissen"
+  title: "Lattice Unitarity: Saturated Collisional Resistivity of Strongly Interacting Metals"
+  year: 2025
+  arxiv: "2510.19395"
+  notes: "Under review at Physical Review Letters"
+
+- type: paper
+  authors: "V. Venu, P. Xu, M. Mamaev, F. Corapi, T. Bilitweski, J. P. D’Incao, <strong>C. J. Fujiwara</strong>, A. M. Rey, and J. H. Thywissen"
+  title: "Unitary p-wave interactions between fermions in an optical lattice"
+  journal: "Nature"
+  volume: "613"
+  pages: "262–267"
+  year: 2023
+  doi: "10.1038/s41586-022-05493-9"
+
+- type: paper
+  authors: "A. Cao, R. Sajjad, E. Q. Simmons, <strong>C. J. Fujiwara</strong>, T. Shimasaki, and D. M. Weld"
+  title: "Transport controlled by Poincaré orbit topology in a driven inhomogeneous lattice gas"
+  journal: "Physical Review Research"
+  volume: "2"
+  pages: "032032(R)"
+  year: 2020
+  doi: "10.1103/PhysRevResearch.2.032032"
+
+- type: paper
+  authors: "A. Cao, <strong>C. J. Fujiwara</strong>, R. Sajjad, E. Q. Simmons, E. Lindroth, and D. M. Weld"
+  title: "Probing Nonexponential Decay in Floquet–Bloch Bands"
+  journal: "Zeitschrift für Naturforschung A"
+  volume: "75"
+  pages: "443–448"
+  year: 2020
+  notes: "Invited publication in special issue on Physics of Non-Equilibrium Systems"
+
+- type: paper
+  authors: "K. Singh*, <strong>C. J. Fujiwara</strong>*, Z. A. Geiger, E. Q. Simmons, M. Lipatov, A. Cao, P. Dotti, S. V. Rajagopal, R. Senaratne, T. Shimasaki, M. Heyl, A. Eckardt, and D. M. Weld"
+  title: "Quantifying and controlling Prethermal Nonergodicity in Interacting Floquet Matter"
+  journal: "Physical Review X"
+  volume: "9"
+  pages: "041021"
+  year: 2019
+  doi: "10.1103/PhysRevX.9.041021"
+
+- type: paper
+  authors: "<strong>C. J. Fujiwara</strong>*, K. Singh*, Z. A. Geiger, R. Senaratne, S. V. Rajagopal, M. Lipatov, and D. M. Weld"
+  title: "Transport in Floquet Bloch Bands"
+  journal: "Physical Review Letters"
+  volume: "122"
+  pages: "010402"
+  year: 2019
+  doi: "10.1103/PhysRevLett.122.010402"
+
+- type: paper
+  authors: "R. Senaratne, S. V. Rajagopal, T. Shimasaki, P. E. Dotti, K. M. Fujiwara, K. Singh, Z. A. Geiger, and D. M. Weld"
+  title: "Quantum Simulation of ultrafast dynamics using trapped ultracold atoms"
+  journal: "Nature Communications"
+  volume: "9"
+  pages: "2065"
+  year: 2018
+  doi: "10.1038/s41467-018-04590-1"
+
+- type: paper
+  authors: "Z. A. Geiger*, K. M. Fujiwara*, K. Singh, R. Senaratne, S. V. Rajagopal, M. Lipatov, T. Shimasaki, R. Driben, V. V. Konotop, T. Meier, and D. M. Weld"
+  title: "Observation and uses of position-space Bloch Oscillations in an Ultracold Gas"
+  journal: "Physical Review Letters"
+  volume: "120"
+  pages: "213201"
+  year: 2018
+  doi: "10.1103/PhysRevLett.120.213201"
+  notes: "Editor’s Choice; featured in APS Physics"
+
+- type: paper
+  authors: "K. M. Fujiwara*, Z. A. Geiger*, K. Singh, R. Senaratne, S. V. Rajagopal, M. Lipatov, T. Shimasaki, and D. M. Weld"
+  title: "Experimental Realization of a Relativistic Harmonic Oscillator"
+  journal: "New Journal of Physics"
+  volume: "20"
+  pages: "063027"
+  year: 2018
+  doi: "10.1088/1367-2630/aac96b"
+  notes: "Video abstract available"
+
+- type: paper
+  authors: "S. V. Rajagopal, K. M. Fujiwara, R. Senaratne, K. Singh, Z. A. Geiger, and D. M. Weld"
+  title: "Quantum Emulation of Extreme Non-equilibrium Phenomena with Trapped Atoms"
+  journal: "Annalen der Physik"
+  volume: "529"
+  pages: "1700008"
+  year: 2017
+  doi: "10.1002/andp.201700008"
+
+- type: paper
+  authors: "R. Senaratne, S. V. Rajagopal, Z. Geiger, K. M. Fujiwara, V. Lebedev, and D. M. Weld"
   title: "Effusive Atomic Oven Nozzle Design Using an Aligned Microcapillary Array"
   journal: "Review of Scientific Instruments"
   volume: "86"
@@ -9,7 +102,6 @@
   year: 2015
   doi: "10.1063/1.4907401"
   arxiv: "1407.6391"
-  notes: ""
 
 - type: thesis
   authors: "C. Fujiwara"
@@ -18,23 +110,6 @@
   institution: "University of California, Santa Barbara"
   year: 2019
   pdf: "https://web.physics.ucsb.edu/~weld/publications/fujiwaraThesis.pdf"
-
-
-- type: thesis
-  authors: "A. Student"
-  title: Optical lattice design for quantum gas experiments
-  degree: "M.S."
-  institution: "Lehigh University"
-  year: 2028
-  pdf: "link"
-
-- type: thesis
-  authors: "B. Student"
-  title: Laser cooling techniques
-  degree: "B.S."
-  institution: "Lehigh University"
-  year: 2027
-  pdf: "link"
 
 - type: report
   authors: "C. Fujiwara Lab"
