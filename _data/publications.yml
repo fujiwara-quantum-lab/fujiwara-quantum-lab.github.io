@@ -8,7 +8,7 @@
   pages: "023105"
   year: 2015
   doi: "10.1063/1.4907401"
-  arxiv: "2308.16069"
+  arxiv: "1407.6391"
   notes: ""
 
 - type: phd_thesis
@@ -16,8 +16,7 @@
   title: "Dynamics of Ultracold Lithium in Modulated Optical Lattices"
   institution: "University of California, Santa Barbara"
   year: 2019
-  link_url: "https://web.physics.ucsb.edu/~weld/publications/fujiwaraThesis.pdf"
-  link_text: "PDF"
+  pdf: "https://web.physics.ucsb.edu/~weld/publications/fujiwaraThesis.pdf"
 
 - type: masters_thesis
   authors: "A. Student"

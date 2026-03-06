@@ -29,18 +29,22 @@ permalink: /publications/
   {% endif %}
 
   {% if item.doi or item.arxiv or item.pdf %}
-    <div class="pub-links">
-      {% if item.doi %}
-        <a href="https://doi.org/{{ item.doi }}" class="link-blue">[doi]</a>
-      {% endif %}
-      {% if item.arxiv %}
-        <a href="https://arxiv.org/abs/{{ item.arxiv }}" class="link-blue">[arXiv]</a>
-      {% endif %}
-      {% if item.pdf %}
-        <a href="{{ item.pdf }}" class="link-blue">[pdf]</a>
-      {% endif %}
-    </div>
-  {% endif %}
+<div class="pub-links">
+
+{% if item.doi %}
+<a href="https://doi.org/{{ item.doi }}" class="link-blue">[doi: {{ item.doi }}]</a>
+{% endif %}
+
+{% if item.arxiv %}
+<a href="https://arxiv.org/abs/{{ item.arxiv }}" class="link-blue">[arXiv: {{ item.arxiv }}]</a>
+{% endif %}
+
+{% if item.pdf %}
+<a href="{{ item.pdf }}" class="link-blue">[pdf]</a>
+{% endif %}
+
+</div>
+{% endif %}
 
 </div>
 {% endfor %}
