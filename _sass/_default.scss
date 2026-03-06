@@ -422,6 +422,10 @@ html {
   flex: 1 1 50%;
 }
 
+.news-post p {
+  margin-top: 0;
+}
+
 .news-post > :last-child {
   margin-bottom: 0;
 }
