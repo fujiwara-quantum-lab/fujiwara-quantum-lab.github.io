@@ -6,6 +6,7 @@ permalink: /openings/
 
 For all openings, please contact C. Fujiwara for details.
 
+<div class="openings-page">
 <div class="openings-layout">
   <div class="openings-text" markdown="1">
 
@@ -25,5 +26,6 @@ For all openings, please contact C. Fujiwara for details.
 
 *graduate student adjusting optics (University of Toronto)*
 
-  </div>
+ </div>
+</div>
 </div>

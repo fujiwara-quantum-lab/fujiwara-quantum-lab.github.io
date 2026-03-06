@@ -85,7 +85,7 @@ html {
   flex-wrap: wrap;
   gap: 2rem;
   align-items: flex-start;
-  margin: 2rem 0;
+  margin: 0rem 0;
 }
 
 .openings-text {
@@ -108,6 +108,21 @@ html {
   margin-top: 0.5rem;
   color: #555;
   font-size: 0.95rem;
+}
+
+.openings-page h2 {
+  margin-top: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.openings-page p {
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.openings-page .openings-text > *:first-child,
+.openings-page .openings-image > *:first-child {
+  margin-top: 0;
 }
 
 /*
