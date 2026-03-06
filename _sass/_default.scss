@@ -385,12 +385,12 @@ html {
 }
 
 .post-title {
-  font-size: 1rem;
+  font-size: 3rem;
   margin-bottom: 0.0rem;
 }
 
 .post-meta {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #888;
   margin-bottom: 1rem;
 }
@@ -420,6 +420,10 @@ html {
 
 .news-post .post-text {
   flex: 1 1 50%;
+}
+
+.news-post > :last-child {
+  margin-bottom: 0;
 }
 
 .news-post .post-carousel {
