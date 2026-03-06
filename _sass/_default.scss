@@ -471,3 +471,24 @@ html {
   max-height: 100%;
   object-fit: contain;
 }
+
+.home-news-item {
+  margin-bottom: 0.4rem;
+}
+
+.home-news-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.home-news-title:hover {
+  text-decoration: underline;
+}
+
+.home-news-date {
+  font-size: 0.85rem;
+  color: #666;
+  margin-left: 0.3rem;
+}

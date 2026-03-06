@@ -28,8 +28,13 @@ Please explore this website to learn more about what we do.  If you are new the 
 
 ## Recent News
 
+<div class="home-news">
 {% for post in site.posts limit:10 %}
-- {{ post.date | date: "%Y-%m-%d" }} — [{{ post.title }}]({{ post.url | relative_url }})
+  <div class="home-news-item">
+    <a class="home-news-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="home-news-date">({{ post.date | date: "%B %d, %Y" }})</span>
+  </div>
 {% endfor %}
+</div>
 
-[More news →]({{ '/news/' | relative_url }})
+<p><a href="{{ '/news/' | relative_url }}">More news →</a></p>
