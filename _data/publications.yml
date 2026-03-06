@@ -63,7 +63,7 @@
   arxiv: 1806.07858 
 
 - type: paper
-  authors: "R. Senaratne, S. V. Rajagopal, T. Shimasaki, P. E. Dotti, K. M. Fujiwara, K. Singh, Z. A. Geiger, and D. M. Weld"
+  authors: "R. Senaratne, S. V. Rajagopal, T. Shimasaki, P. E. Dotti, <strong>C. J. Fujiwara</strong>, K. Singh, Z. A. Geiger, and D. M. Weld"
   title: "Quantum Simulation of ultrafast dynamics using trapped ultracold atoms"
   journal: "Nature Communications"
   volume: "9"
@@ -73,7 +73,7 @@
   arxiv : 1711.02654
 
 - type: paper
-  authors: "Z. A. Geiger*, K. M. Fujiwara*, K. Singh, R. Senaratne, S. V. Rajagopal, M. Lipatov, T. Shimasaki, R. Driben, V. V. Konotop, T. Meier, and D. M. Weld"
+  authors: "Z. A. Geiger*, <strong>C. J. Fujiwara</strong>*, K. Singh, R. Senaratne, S. V. Rajagopal, M. Lipatov, T. Shimasaki, R. Driben, V. V. Konotop, T. Meier, and D. M. Weld"
   title: "Observation and uses of position-space Bloch Oscillations in an Ultracold Gas"
   journal: "Physical Review Letters"
   volume: "120"
@@ -84,7 +84,7 @@
   notes: "Editor’s Choice; featured in APS Physics"
 
 - type: paper
-  authors: "K. M. Fujiwara*, Z. A. Geiger*, K. Singh, R. Senaratne, S. V. Rajagopal, M. Lipatov, T. Shimasaki, and D. M. Weld"
+  authors: "<strong>C. J. Fujiwara</strong>*, Z. A. Geiger*, K. Singh, R. Senaratne, S. V. Rajagopal, M. Lipatov, T. Shimasaki, and D. M. Weld"
   title: "Experimental Realization of a Relativistic Harmonic Oscillator"
   journal: "New Journal of Physics"
   volume: "20"
@@ -95,7 +95,7 @@
   notes: "Video abstract available"
 
 - type: paper
-  authors: "S. V. Rajagopal, K. M. Fujiwara, R. Senaratne, K. Singh, Z. A. Geiger, and D. M. Weld"
+  authors: "S. V. Rajagopal, <strong>C. J. Fujiwara</strong>, R. Senaratne, K. Singh, Z. A. Geiger, and D. M. Weld"
   title: "Quantum Emulation of Extreme Non-equilibrium Phenomena with Trapped Atoms"
   journal: "Annalen der Physik"
   volume: "529"
@@ -105,7 +105,7 @@
   doi: "10.1002/andp.201700008"
 
 - type: paper
-  authors: "R. Senaratne, S. V. Rajagopal, Z. Geiger, K. M. Fujiwara, V. Lebedev, and D. M. Weld"
+  authors: "R. Senaratne, S. V. Rajagopal, Z. Geiger, <strong>C. J. Fujiwara</strong>, V. Lebedev, and D. M. Weld"
   title: "Effusive Atomic Oven Nozzle Design Using an Aligned Microcapillary Array"
   journal: "Review of Scientific Instruments"
   volume: "86"
