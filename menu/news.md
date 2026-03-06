@@ -16,6 +16,6 @@ permalink: /news/
       {% else %}
         {% include news/dump.html post=post %}
     {% endcase %}
-    <hr class="post-divider">
+    <!-- <hr class="post-divider"> -->
   {% endfor %}
 </div>
