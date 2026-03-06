@@ -1,0 +1,45 @@
+# _data/publications.yml
+
+- type: paper
+  authors: "R. Senaratne, S. Rajagopal, Z. Geiger, **C. Fujiwara**, V. Lebedev, and D. M. Weld."
+  title: "Effusive Atomic Oven Nozzle Design Using an Aligned Microcapillary Array."
+  journal: "Review of Scientific Instruments"
+  volume: "86"
+  pages: "023105"
+  year: 2015
+  doi: "10.1063/1.4907401"
+  arxiv: "2308.16069"
+  notes: ""
+
+- type: phd_thesis
+  authors: "C. Fujiwara"
+  title: "Dynamics of Ultracold Lithium in Modulated Optical Lattices"
+  institution: "University of California, Santa Barbara"
+  year: 2019
+  link_url: "https://web.physics.ucsb.edu/~weld/publications/fujiwaraThesis.pdf"
+  link_text: "PDF"
+
+- type: masters_thesis
+  authors: "A. Student"
+  title: "Optical lattice design for quantum gas experiments"
+  institution: "Lehigh University"
+  year: 2028
+  link_url: "https://example.com"
+  link_text: "PDF"
+
+- type: bachelors_thesis
+  authors: "B. Student"
+  title: "A study of laser cooling techniques"
+  institution: "Lehigh University"
+  year: 2027
+  link_url: "https://example.com"
+  link_text: "PDF"
+
+- type: report
+  authors: "C. Fujiwara Lab"
+  title: "Internal apparatus design report"
+  institution: "Lehigh University"
+  year: 2026
+  link_url: "https://example.com"
+  link_text: "Restricted access"
+  notes: "Internal document"
