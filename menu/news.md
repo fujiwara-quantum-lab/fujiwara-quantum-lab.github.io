@@ -19,3 +19,4 @@ permalink: /news/
     <!-- <hr class="post-divider"> -->
   {% endfor %}
 </div>
+hi
