@@ -17,7 +17,8 @@
   volume: "613"
   pages: "262–267"
   year: 2023
-  doi: "10.1038/s41586-022-05493-9"
+  doi: "10.1038/s41586-022-05405-6"
+  arxiv: "2205.13506"
 
 - type: paper
   authors: "A. Cao, R. Sajjad, E. Q. Simmons, <strong>C. J. Fujiwara</strong>, T. Shimasaki, and D. M. Weld"
@@ -27,6 +28,7 @@
   pages: "032032(R)"
   year: 2020
   doi: "10.1103/PhysRevResearch.2.032032"
+  arxiv: "2006.01612"
 
 - type: paper
   authors: "A. Cao, <strong>C. J. Fujiwara</strong>, R. Sajjad, E. Q. Simmons, E. Lindroth, and D. M. Weld"
@@ -36,7 +38,10 @@
   pages: "443–448"
   year: 2020
   notes: "Invited publication in special issue on Physics of Non-Equilibrium Systems"
-
+  doi: 10.1515/zna-2020-0020
+  arxiv: 2002.03051
+  
+  
 - type: paper
   authors: "K. Singh*, <strong>C. J. Fujiwara</strong>*, Z. A. Geiger, E. Q. Simmons, M. Lipatov, A. Cao, P. Dotti, S. V. Rajagopal, R. Senaratne, T. Shimasaki, M. Heyl, A. Eckardt, and D. M. Weld"
   title: "Quantifying and controlling Prethermal Nonergodicity in Interacting Floquet Matter"
@@ -102,6 +107,10 @@
   year: 2015
   doi: "10.1063/1.4907401"
   arxiv: "1407.6391"
+  
+# ========================
+# Theses
+# ========================
 
 - type: thesis
   authors: "C. Fujiwara"
@@ -110,6 +119,11 @@
   institution: "University of California, Santa Barbara"
   year: 2019
   pdf: "https://web.physics.ucsb.edu/~weld/publications/fujiwaraThesis.pdf"
+
+
+# ========================
+# Reports
+# ========================
 
 - type: report
   authors: "C. Fujiwara Lab"
