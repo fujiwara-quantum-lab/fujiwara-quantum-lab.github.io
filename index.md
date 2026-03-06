@@ -5,7 +5,7 @@ permalink: /
 ---
 # Welcome to the Fujiwara Lab!
 
-{% assign images = site.data.gallery_1 %}
+{% assign images = site.data.homepage.carousel %}
 
 {% capture home_text %}
 We are a new experimental atomic physics group in the Physics Department at Lehigh University.  
@@ -19,7 +19,7 @@ ultracold atoms, Bose condensation, degenerate Fermi gases, optical lattices, qu
 
 {% include carousel.html
    images=images
-   folder="gallery_1"
+   folder="pages"
    id="home-carousel"
    text_position="left"
    max_width="600px"

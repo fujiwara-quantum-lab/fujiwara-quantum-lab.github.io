@@ -22,7 +22,7 @@ For all openings, please contact C. Fujiwara for details.
 
   <div class="openings-image" markdown="1">
 
-![graduate student adjusting optics (University of Toronto)](/assets/img/adjust.jpg)
+![graduate student adjusting optics (University of Toronto)](/assets/img/pages/adjust.jpg)
 
 *graduate student adjusting optics (University of Toronto)*
 

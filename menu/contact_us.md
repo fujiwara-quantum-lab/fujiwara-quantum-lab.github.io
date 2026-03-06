@@ -36,12 +36,12 @@ Please direct all inquiries to the group PI - Cora Fujiwara.
 <!-- Bottom image row -->
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: space-between;">
   <figure style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="/assets/img/gallery_1/lewis_lab_2.jpg" alt="Lewis Lab exterior" style="width: 100%; max-width: 100%; border-radius: 10px;">
+    <img src="/assets/img/pages/lewis_lab_2.jpg" alt="Lewis Lab exterior" style="width: 100%; max-width: 100%; border-radius: 10px;">
     <figcaption style="margin-top: 0.5rem; color: #555;">Southside access to Lewis Lab from Sherman Fairchild Center.</figcaption>
   </figure>
 
   <figure style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="/assets/img/lewis_lab_north.jpg" alt="Lehigh campus view" style="width: 100%; max-width: 100%; border-radius: 10px;">
+    <img src="/assets/img/pages/lewis_lab_north.jpg" alt="Lehigh campus view" style="width: 100%; max-width: 100%; border-radius: 10px;">
     <figcaption style="margin-top: 0.5rem; color: #555;">Northside entrance to Lewis Lab.</figcaption>
   </figure>
 </div>
