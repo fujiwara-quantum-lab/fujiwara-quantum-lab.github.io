@@ -1,7 +1,7 @@
 ---
 id: cora-fujiwara
 myname: Cora Fujiwara
-role: Assistant Professor
+role: Principal Investigator | Assistant Professor of Physics
 education:
   - Ph.D. in Physics, University of California Santa Barbara, 2019.
   - M.A. in Physics, University of California Santa Barbara, 2015.
