@@ -7,8 +7,7 @@ permalink: /openings/
 For all openings, please contact C. Fujiwara for details.
 
 <div class="openings-layout">
-
-<div class="openings-text">
+  <div class="openings-text" markdown="1">
 
 ### Postdoctoral fellow
 
@@ -22,14 +21,13 @@ For all openings, please contact C. Fujiwara for details.
 
 **We have numerous opportunities for undergraduate students to get involved with research.** Typical projects for undergraduates include analog electronics, digital electronics, numerical techniques, optics, fluid dynamics, mechanical design, vacuum design, and more. Please contact Cora for an up-to-date list, as projects can be tailored to your specific interests. We are also proud members of the [**Physics REU Program**](https://physics.cas.lehigh.edu/undergraduate/reu-program){: .link-blue } at Lehigh University.
 
-</div>
+  </div>
 
-<div class="openings-image">
+  <div class="openings-image" markdown="1">
 
 ![graduate student adjusting optics (University of Toronto)](/assets/img/adjust.jpg)
 
 *graduate student adjusting optics (University of Toronto)*
 
-</div>
-
+  </div>
 </div>
