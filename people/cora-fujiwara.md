@@ -13,6 +13,7 @@ cv: /assets/docs/fujiwara_cv.pdf
 linkedin: https://www.linkedin.com/in/cora-fujiwara-8038921b3
 googlescholar: https://scholar.google.com/citations?user=rlZHLjwAAAAJ
 github: https://github.com/cjfujiwara
+orcid: https://orcid.org/0000-0002-9518-736X
 images:
   - { filename: fujiwara_1.jpg, caption: }
   - { filename: fujiwara_2.jpg, caption: "Skiing in the Dolomites (2021)"}

@@ -50,6 +50,11 @@
       <div style="text-align: center;"><i class="fab fa-google" style="color: #4285F4;"></i></div>
       <div><a href="{{ person.googlescholar }}" target="_blank" style="font-size: 1rem;">Google Scholar</a></div>
       {% endif %}
+	  
+      {% if person.orcid %}
+	  <div style="text-align: center;"><i class="fab fa-orcid" style="color: #A6CE39;"></i></div>
+	  <div><a href="{{ person.orcid }}" target="_blank" style="font-size: 1rem;">ORCiD</a></div>
+	  {% endif %}
     </div>
 
     {% if person.about %}
