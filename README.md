@@ -28,3 +28,6 @@ Short bio here.
 assets/img/people/jane-doe.jpg
 
 5. Commit and push.
+
+
+Hey look, I am editing this text file
