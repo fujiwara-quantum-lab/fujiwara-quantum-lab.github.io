@@ -1,13 +1,12 @@
 current:
- - id: cora-fujiwara
- - id: benjamin-gruppuso
- - id: maddison-ellis
- - id: jack-stuhlman
- - id: aidan-donnelly
- - id: eetao-chen
- - id: nicholas-bressi
- - id: yuedong-xu
- 
+  - id: cora-fujiwara
+  - id: benjamin-gruppuso
+  - id: maddison-ellis
+  - id: jack-stuhlman
+  - id: aidan-donnelly
+  - id: eetao-chen
+  - id: nicholas-bressi
+  - id: yuedong-xu
 alumni:
- - id: nikolas-cruz
- - id: alivia-yablonsky
+  - id: nikolas-cruz
+  - id: alivia-yablonsky
