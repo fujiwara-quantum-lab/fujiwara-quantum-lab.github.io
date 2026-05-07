@@ -13,6 +13,8 @@ permalink: /people/
 {% endfor %}
 
 
+{% if site.data.people.alumni and site.data.people.alumni.size > 0 %}
+
 # Alumni
 
 <div class="alumni-list">
@@ -44,8 +46,6 @@ permalink: /people/
 </div>
 
 {% endif %}
-
-
 
 <!--
 ### Alumni
