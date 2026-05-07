@@ -13,6 +13,39 @@ permalink: /people/
 {% endfor %}
 
 
+# Alumni
+
+<div class="alumni-list">
+{% for entry in site.data.people.alumni %}
+  {% assign person = site.pages | where: "id", entry.id | first %}
+
+  <div class="alumni-entry">
+    <strong>
+      {% if person.linkedin %}
+        <a href="{{ person.linkedin }}" target="_blank" rel="noopener noreferrer">{{ person.myname }}</a>
+      {% else %}
+        {{ person.myname }}
+      {% endif %}
+    </strong>
+
+    {% if person.start_date or person.end_date %}
+      <span>
+        — {{ person.start_date }}{% if person.end_date %}–{{ person.end_date }}{% endif %}
+      </span>
+    {% endif %}
+
+    {% if person.next_position %}
+      <br>
+      <span>Next position: {{ person.next_position }}</span>
+    {% endif %}
+  </div>
+
+{% endfor %}
+</div>
+
+{% endif %}
+
+
 
 <!--
 ### Alumni
