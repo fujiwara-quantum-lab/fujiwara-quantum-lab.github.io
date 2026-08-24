@@ -1,7 +1,6 @@
 current:
   - id: cora-fujiwara
   - id: benjamin-gruppuso
-  - id: sylvester-mbam
   - id: maddison-ellis
   - id: kenneth-emmanuel
   - id: jack-stuhlman
@@ -9,8 +8,10 @@ current:
   - id: eetao-chen
   - id: nicholas-bressi
   - id: yuedong-xu
-  - id: rachel-bier
-  - id: clement-dunn
+
 alumni:
   - id: nikolas-cruz
   - id: alivia-yablonsky
+  - id: sylvester-mbam
+  - id: rachel-bier
+  - id: clement-dunn
