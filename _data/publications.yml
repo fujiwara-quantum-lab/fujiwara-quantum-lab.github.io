@@ -4,10 +4,13 @@
 # ========================
 - type: paper
   authors: "F. Corapi, R. T. Learn, B. Driesen, A. Lefebvre, X. Leyronas, F. Chevy, <strong>C. J. Fujiwara</strong>, and J. H. Thywissen"
-  title: "Lattice Unitarity: Saturated Collisional Resistivity of Strongly Interacting Metals"
-  year: 2025
+  title: "Lattice Unitarity: Saturated Collisional Resistivity in Hubbard Metals"
+  journal : "Physical Review Letters"
+  volume: 136
+  pages: "213401"
+  year: 2026
+  doi: "10.1103/bhw8-p536"  
   arxiv: "2510.19395"
-  notes: "Under review at Physical Review Letters"
 
 - type: paper
   authors: "V. Venu, P. Xu, M. Mamaev, F. Corapi, T. Bilitweski, J. P. D’Incao, <strong>C. J. Fujiwara</strong>, A. M. Rey, and J. H. Thywissen"
@@ -69,7 +72,7 @@
   pages: "2065"
   year: 2018
   doi: "10.1038/s41467-018-04556-3"
-  arxiv : 1711.02654
+  arxiv: 1711.02654
 
 - type: paper
   authors: "Z. A. Geiger*, <strong>C. J. Fujiwara</strong>*, K. Singh, R. Senaratne, S. V. Rajagopal, M. Lipatov, T. Shimasaki, R. Driben, V. V. Konotop, T. Meier, and D. M. Weld"
@@ -136,11 +139,11 @@
   title: "REU DDS"
   institution: "Lehigh University"
   year: 2026
-  notes : "restricted access" 
+  notes: "restricted access" 
   
- - type: report
+- type: report
   authors: "Rachel Bier"
   title: "Design and Construction of a High-Current Bitter Electromagnet"
   institution: "Lehigh University"
   year: 2026
-  notes : "restricted access" 
+  notes: "restricted access" 
