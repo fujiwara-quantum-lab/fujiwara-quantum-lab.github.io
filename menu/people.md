@@ -32,7 +32,7 @@ permalink: /people/
 
     {% if person.start_date or person.end_date %}
       <span>
-        — {{ person.start_date }}{% if person.end_date %}–{{ person.end_date }}{% endif %}
+        — {{ person.start_date }}{% if person.end_date %} to {{ person.end_date }}{% endif %}
       </span>
     {% endif %}
 
